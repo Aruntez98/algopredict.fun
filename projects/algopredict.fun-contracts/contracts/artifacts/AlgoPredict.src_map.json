@@ -1,0 +1,7619 @@
+[
+  {
+    "teal": 1,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      0
+    ]
+  },
+  {
+    "teal": 2,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "teal": 3,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  },
+  {
+    "teal": 15,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      38,
+      39
+    ]
+  },
+  {
+    "teal": 16,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      40
+    ]
+  },
+  {
+    "teal": 17,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      41,
+      42
+    ]
+  },
+  {
+    "teal": 18,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      43
+    ]
+  },
+  {
+    "teal": 19,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      44,
+      45
+    ]
+  },
+  {
+    "teal": 20,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      46
+    ]
+  },
+  {
+    "teal": 21,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72
+    ]
+  },
+  {
+    "teal": 25,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "errorMessage": "The requested action is not implemented in this contract. Are you using the correct OnComplete? Did you set your app ID?",
+    "pc": [
+      73
+    ]
+  },
+  {
+    "teal": 30,
+    "source": "contracts\\AlgoPredict.algo.ts:32",
+    "pc": [
+      74,
+      75,
+      76
+    ]
+  },
+  {
+    "teal": 31,
+    "source": "contracts\\AlgoPredict.algo.ts:32",
+    "pc": [
+      77
+    ]
+  },
+  {
+    "teal": 32,
+    "source": "contracts\\AlgoPredict.algo.ts:32",
+    "pc": [
+      78
+    ]
+  },
+  {
+    "teal": 36,
+    "source": "contracts\\AlgoPredict.algo.ts:32",
+    "pc": [
+      79,
+      80,
+      81
+    ]
+  },
+  {
+    "teal": 40,
+    "source": "contracts\\AlgoPredict.algo.ts:33",
+    "pc": [
+      82
+    ]
+  },
+  {
+    "teal": 41,
+    "source": "contracts\\AlgoPredict.algo.ts:33",
+    "pc": [
+      83
+    ]
+  },
+  {
+    "teal": 42,
+    "source": "contracts\\AlgoPredict.algo.ts:33",
+    "pc": [
+      84
+    ]
+  },
+  {
+    "teal": 43,
+    "source": "contracts\\AlgoPredict.algo.ts:32",
+    "pc": [
+      85
+    ]
+  },
+  {
+    "teal": 48,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      86,
+      87,
+      88,
+      89,
+      90,
+      91
+    ]
+  },
+  {
+    "teal": 51,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      92,
+      93,
+      94
+    ]
+  },
+  {
+    "teal": 52,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      95
+    ]
+  },
+  {
+    "teal": 55,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      96,
+      97,
+      98
+    ]
+  },
+  {
+    "teal": 56,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      99
+    ]
+  },
+  {
+    "teal": 59,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      100,
+      101,
+      102
+    ]
+  },
+  {
+    "teal": 60,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      103,
+      104,
+      105
+    ]
+  },
+  {
+    "teal": 63,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      106,
+      107,
+      108
+    ]
+  },
+  {
+    "teal": 64,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      109,
+      110,
+      111
+    ]
+  },
+  {
+    "teal": 67,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      112,
+      113,
+      114
+    ]
+  },
+  {
+    "teal": 68,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      115,
+      116,
+      117
+    ]
+  },
+  {
+    "teal": 71,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      118,
+      119,
+      120
+    ]
+  },
+  {
+    "teal": 72,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      121
+    ]
+  },
+  {
+    "teal": 73,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      122
+    ]
+  },
+  {
+    "teal": 74,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      123
+    ]
+  },
+  {
+    "teal": 75,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      124
+    ]
+  },
+  {
+    "teal": 76,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      125
+    ]
+  },
+  {
+    "teal": 80,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      126,
+      127,
+      128
+    ]
+  },
+  {
+    "teal": 83,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      129
+    ]
+  },
+  {
+    "teal": 87,
+    "source": "contracts\\AlgoPredict.algo.ts:37",
+    "pc": [
+      130,
+      131
+    ]
+  },
+  {
+    "teal": 88,
+    "source": "contracts\\AlgoPredict.algo.ts:37",
+    "pc": [
+      132,
+      133
+    ]
+  },
+  {
+    "teal": 89,
+    "source": "contracts\\AlgoPredict.algo.ts:37",
+    "pc": [
+      134
+    ]
+  },
+  {
+    "teal": 92,
+    "source": "contracts\\AlgoPredict.algo.ts:37",
+    "errorMessage": "startsAt should be less than endsAt",
+    "pc": [
+      135
+    ]
+  },
+  {
+    "teal": 96,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "pc": [
+      136,
+      137
+    ]
+  },
+  {
+    "teal": 97,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "pc": [
+      138,
+      139,
+      140
+    ]
+  },
+  {
+    "teal": 98,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "pc": [
+      141,
+      142
+    ]
+  },
+  {
+    "teal": 99,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "pc": [
+      143
+    ]
+  },
+  {
+    "teal": 100,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "pc": [
+      144
+    ]
+  },
+  {
+    "teal": 103,
+    "source": "contracts\\AlgoPredict.algo.ts:38",
+    "errorMessage": "Only creator can add prediction",
+    "pc": [
+      145
+    ]
+  },
+  {
+    "teal": 116,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      146
+    ]
+  },
+  {
+    "teal": 117,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      147
+    ]
+  },
+  {
+    "teal": 118,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      148,
+      149,
+      150,
+      151
+    ]
+  },
+  {
+    "teal": 119,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      152,
+      153
+    ]
+  },
+  {
+    "teal": 120,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      154
+    ]
+  },
+  {
+    "teal": 121,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      155
+    ]
+  },
+  {
+    "teal": 122,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      156
+    ]
+  },
+  {
+    "teal": 123,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      157,
+      158,
+      159
+    ]
+  },
+  {
+    "teal": 124,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      160
+    ]
+  },
+  {
+    "teal": 125,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      161
+    ]
+  },
+  {
+    "teal": 126,
+    "source": "contracts\\AlgoPredict.algo.ts:40",
+    "pc": [
+      162,
+      163,
+      164
+    ]
+  },
+  {
+    "teal": 127,
+    "source": "contracts\\AlgoPredict.algo.ts:41",
+    "pc": [
+      165
+    ]
+  },
+  {
+    "teal": 128,
+    "source": "contracts\\AlgoPredict.algo.ts:41",
+    "pc": [
+      166,
+      167,
+      168
+    ]
+  },
+  {
+    "teal": 129,
+    "source": "contracts\\AlgoPredict.algo.ts:42",
+    "pc": [
+      169
+    ]
+  },
+  {
+    "teal": 130,
+    "source": "contracts\\AlgoPredict.algo.ts:42",
+    "pc": [
+      170,
+      171,
+      172
+    ]
+  },
+  {
+    "teal": 131,
+    "source": "contracts\\AlgoPredict.algo.ts:45",
+    "pc": [
+      173,
+      174
+    ]
+  },
+  {
+    "teal": 132,
+    "source": "contracts\\AlgoPredict.algo.ts:45",
+    "pc": [
+      175
+    ]
+  },
+  {
+    "teal": 133,
+    "source": "contracts\\AlgoPredict.algo.ts:45",
+    "pc": [
+      176,
+      177,
+      178
+    ]
+  },
+  {
+    "teal": 134,
+    "source": "contracts\\AlgoPredict.algo.ts:46",
+    "pc": [
+      179,
+      180
+    ]
+  },
+  {
+    "teal": 135,
+    "source": "contracts\\AlgoPredict.algo.ts:46",
+    "pc": [
+      181
+    ]
+  },
+  {
+    "teal": 136,
+    "source": "contracts\\AlgoPredict.algo.ts:46",
+    "pc": [
+      182,
+      183,
+      184
+    ]
+  },
+  {
+    "teal": 137,
+    "source": "contracts\\AlgoPredict.algo.ts:47",
+    "pc": [
+      185
+    ]
+  },
+  {
+    "teal": 138,
+    "source": "contracts\\AlgoPredict.algo.ts:47",
+    "pc": [
+      186,
+      187,
+      188
+    ]
+  },
+  {
+    "teal": 139,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      189,
+      190
+    ]
+  },
+  {
+    "teal": 140,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      191
+    ]
+  },
+  {
+    "teal": 141,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      192
+    ]
+  },
+  {
+    "teal": 142,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      193
+    ]
+  },
+  {
+    "teal": 143,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      194,
+      195,
+      196
+    ]
+  },
+  {
+    "teal": 144,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      197
+    ]
+  },
+  {
+    "teal": 145,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      198
+    ]
+  },
+  {
+    "teal": 146,
+    "source": "contracts\\AlgoPredict.algo.ts:43",
+    "pc": [
+      199,
+      200,
+      201
+    ]
+  },
+  {
+    "teal": 147,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      202,
+      203
+    ]
+  },
+  {
+    "teal": 148,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      204
+    ]
+  },
+  {
+    "teal": 149,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      205
+    ]
+  },
+  {
+    "teal": 150,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      206
+    ]
+  },
+  {
+    "teal": 151,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      207,
+      208,
+      209
+    ]
+  },
+  {
+    "teal": 152,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      210
+    ]
+  },
+  {
+    "teal": 153,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      211
+    ]
+  },
+  {
+    "teal": 154,
+    "source": "contracts\\AlgoPredict.algo.ts:44",
+    "pc": [
+      212,
+      213,
+      214
+    ]
+  },
+  {
+    "teal": 155,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      215
+    ]
+  },
+  {
+    "teal": 156,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      216
+    ]
+  },
+  {
+    "teal": 157,
+    "source": "contracts\\AlgoPredict.algo.ts:39",
+    "pc": [
+      217,
+      218
+    ]
+  },
+  {
+    "teal": 161,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      219
+    ]
+  },
+  {
+    "teal": 162,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      220
+    ]
+  },
+  {
+    "teal": 163,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      221
+    ]
+  },
+  {
+    "teal": 164,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      222
+    ]
+  },
+  {
+    "teal": 165,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      223
+    ]
+  },
+  {
+    "teal": 166,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      224
+    ]
+  },
+  {
+    "teal": 167,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      225,
+      226
+    ]
+  },
+  {
+    "teal": 168,
+    "source": "contracts\\AlgoPredict.algo.ts:49",
+    "pc": [
+      227
+    ]
+  },
+  {
+    "teal": 172,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      228
+    ]
+  },
+  {
+    "teal": 173,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      229
+    ]
+  },
+  {
+    "teal": 174,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      230
+    ]
+  },
+  {
+    "teal": 175,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      231
+    ]
+  },
+  {
+    "teal": 176,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      232
+    ]
+  },
+  {
+    "teal": 177,
+    "source": "contracts\\AlgoPredict.algo.ts:50",
+    "pc": [
+      233
+    ]
+  },
+  {
+    "teal": 181,
+    "source": "contracts\\AlgoPredict.algo.ts:51",
+    "pc": [
+      234
+    ]
+  },
+  {
+    "teal": 182,
+    "source": "contracts\\AlgoPredict.algo.ts:51",
+    "pc": [
+      235
+    ]
+  },
+  {
+    "teal": 183,
+    "source": "contracts\\AlgoPredict.algo.ts:51",
+    "pc": [
+      236
+    ]
+  },
+  {
+    "teal": 184,
+    "source": "contracts\\AlgoPredict.algo.ts:51",
+    "pc": [
+      237
+    ]
+  },
+  {
+    "teal": 187,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      238,
+      239
+    ]
+  },
+  {
+    "teal": 188,
+    "source": "contracts\\AlgoPredict.algo.ts:36",
+    "pc": [
+      240
+    ]
+  },
+  {
+    "teal": 193,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      241,
+      242
+    ]
+  },
+  {
+    "teal": 194,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      243
+    ]
+  },
+  {
+    "teal": 195,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      244
+    ]
+  },
+  {
+    "teal": 196,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      245
+    ]
+  },
+  {
+    "teal": 197,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      246,
+      247
+    ]
+  },
+  {
+    "teal": 198,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      248
+    ]
+  },
+  {
+    "teal": 199,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      249
+    ]
+  },
+  {
+    "teal": 202,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "errorMessage": "argument 0 (payTxn) for buyShares must be a pay transaction",
+    "pc": [
+      250
+    ]
+  },
+  {
+    "teal": 205,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      251,
+      252,
+      253
+    ]
+  },
+  {
+    "teal": 206,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      254
+    ]
+  },
+  {
+    "teal": 209,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      255,
+      256,
+      257
+    ]
+  },
+  {
+    "teal": 210,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      258
+    ]
+  },
+  {
+    "teal": 211,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      259
+    ]
+  },
+  {
+    "teal": 212,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      260
+    ]
+  },
+  {
+    "teal": 213,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      261
+    ]
+  },
+  {
+    "teal": 216,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "errorMessage": "argument 2 (option) for buyShares must be a uint8",
+    "pc": [
+      262
+    ]
+  },
+  {
+    "teal": 217,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      263
+    ]
+  },
+  {
+    "teal": 220,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      264,
+      265,
+      266
+    ]
+  },
+  {
+    "teal": 221,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      267
+    ]
+  },
+  {
+    "teal": 224,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      268,
+      269,
+      270
+    ]
+  },
+  {
+    "teal": 225,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      271
+    ]
+  },
+  {
+    "teal": 226,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      272
+    ]
+  },
+  {
+    "teal": 230,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      273,
+      274,
+      275
+    ]
+  },
+  {
+    "teal": 233,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      276
+    ]
+  },
+  {
+    "teal": 234,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      277,
+      278
+    ]
+  },
+  {
+    "teal": 238,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "pc": [
+      279,
+      280
+    ]
+  },
+  {
+    "teal": 239,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "pc": [
+      281
+    ]
+  },
+  {
+    "teal": 240,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "pc": [
+      282
+    ]
+  },
+  {
+    "teal": 241,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "pc": [
+      283
+    ]
+  },
+  {
+    "teal": 242,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "pc": [
+      284
+    ]
+  },
+  {
+    "teal": 245,
+    "source": "contracts\\AlgoPredict.algo.ts:55",
+    "errorMessage": "Prediction does not exist",
+    "pc": [
+      285
+    ]
+  },
+  {
+    "teal": 249,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      286,
+      287
+    ]
+  },
+  {
+    "teal": 250,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      288
+    ]
+  },
+  {
+    "teal": 251,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      289,
+      290
+    ]
+  },
+  {
+    "teal": 255,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      291,
+      292
+    ]
+  },
+  {
+    "teal": 256,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      293,
+      294
+    ]
+  },
+  {
+    "teal": 257,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      295
+    ]
+  },
+  {
+    "teal": 260,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      296
+    ]
+  },
+  {
+    "teal": 261,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      297,
+      298
+    ]
+  },
+  {
+    "teal": 262,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      299,
+      300
+    ]
+  },
+  {
+    "teal": 263,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      301,
+      302,
+      303
+    ]
+  },
+  {
+    "teal": 264,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      304
+    ]
+  },
+  {
+    "teal": 265,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "pc": [
+      305
+    ]
+  },
+  {
+    "teal": 268,
+    "source": "contracts\\AlgoPredict.algo.ts:57",
+    "errorMessage": "Prediction has not started yet",
+    "pc": [
+      306
+    ]
+  },
+  {
+    "teal": 272,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      307,
+      308
+    ]
+  },
+  {
+    "teal": 273,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      309,
+      310
+    ]
+  },
+  {
+    "teal": 274,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      311
+    ]
+  },
+  {
+    "teal": 277,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      312
+    ]
+  },
+  {
+    "teal": 278,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      313,
+      314
+    ]
+  },
+  {
+    "teal": 279,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      315,
+      316
+    ]
+  },
+  {
+    "teal": 280,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      317,
+      318,
+      319
+    ]
+  },
+  {
+    "teal": 281,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      320
+    ]
+  },
+  {
+    "teal": 282,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "pc": [
+      321
+    ]
+  },
+  {
+    "teal": 285,
+    "source": "contracts\\AlgoPredict.algo.ts:58",
+    "errorMessage": "Prediction has ended",
+    "pc": [
+      322
+    ]
+  },
+  {
+    "teal": 289,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      323,
+      324
+    ]
+  },
+  {
+    "teal": 290,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      325
+    ]
+  },
+  {
+    "teal": 291,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      326
+    ]
+  },
+  {
+    "teal": 292,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      327
+    ]
+  },
+  {
+    "teal": 293,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      328,
+      329,
+      330
+    ]
+  },
+  {
+    "teal": 294,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      331,
+      332
+    ]
+  },
+  {
+    "teal": 295,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      333
+    ]
+  },
+  {
+    "teal": 296,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      334
+    ]
+  },
+  {
+    "teal": 297,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "pc": [
+      335
+    ]
+  },
+  {
+    "teal": 301,
+    "source": "contracts\\AlgoPredict.algo.ts:59",
+    "errorMessage": "Invalid option",
+    "pc": [
+      336
+    ]
+  },
+  {
+    "teal": 305,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      337,
+      338
+    ]
+  },
+  {
+    "teal": 306,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      339
+    ]
+  },
+  {
+    "teal": 309,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      340
+    ]
+  },
+  {
+    "teal": 310,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      341,
+      342
+    ]
+  },
+  {
+    "teal": 311,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      343,
+      344
+    ]
+  },
+  {
+    "teal": 312,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      345,
+      346,
+      347
+    ]
+  },
+  {
+    "teal": 313,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      348
+    ]
+  },
+  {
+    "teal": 314,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      349
+    ]
+  },
+  {
+    "teal": 315,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "pc": [
+      350
+    ]
+  },
+  {
+    "teal": 318,
+    "source": "contracts\\AlgoPredict.algo.ts:60",
+    "errorMessage": "Prediction result is already set",
+    "pc": [
+      351
+    ]
+  },
+  {
+    "teal": 322,
+    "source": "contracts\\AlgoPredict.algo.ts:61",
+    "pc": [
+      352,
+      353
+    ]
+  },
+  {
+    "teal": 323,
+    "source": "contracts\\AlgoPredict.algo.ts:61",
+    "pc": [
+      354,
+      355
+    ]
+  },
+  {
+    "teal": 324,
+    "source": "contracts\\AlgoPredict.algo.ts:61",
+    "pc": [
+      356
+    ]
+  },
+  {
+    "teal": 325,
+    "source": "contracts\\AlgoPredict.algo.ts:61",
+    "pc": [
+      357
+    ]
+  },
+  {
+    "teal": 326,
+    "source": "contracts\\AlgoPredict.algo.ts:61",
+    "pc": [
+      358,
+      359
+    ]
+  },
+  {
+    "teal": 330,
+    "source": "contracts\\AlgoPredict.algo.ts:62",
+    "pc": [
+      360,
+      361
+    ]
+  },
+  {
+    "teal": 331,
+    "source": "contracts\\AlgoPredict.algo.ts:62",
+    "pc": [
+      362
+    ]
+  },
+  {
+    "teal": 332,
+    "source": "contracts\\AlgoPredict.algo.ts:62",
+    "pc": [
+      363
+    ]
+  },
+  {
+    "teal": 333,
+    "source": "contracts\\AlgoPredict.algo.ts:62",
+    "pc": [
+      364
+    ]
+  },
+  {
+    "teal": 334,
+    "source": "contracts\\AlgoPredict.algo.ts:62",
+    "pc": [
+      365,
+      366
+    ]
+  },
+  {
+    "teal": 339,
+    "source": "contracts\\AlgoPredict.algo.ts:63",
+    "pc": [
+      367,
+      368
+    ]
+  },
+  {
+    "teal": 340,
+    "source": "contracts\\AlgoPredict.algo.ts:63",
+    "pc": [
+      369,
+      370,
+      371
+    ]
+  },
+  {
+    "teal": 345,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      372,
+      373
+    ]
+  },
+  {
+    "teal": 346,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      374,
+      375
+    ]
+  },
+  {
+    "teal": 351,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      376,
+      377
+    ]
+  },
+  {
+    "teal": 352,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      378
+    ]
+  },
+  {
+    "teal": 353,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      379
+    ]
+  },
+  {
+    "teal": 354,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      380
+    ]
+  },
+  {
+    "teal": 355,
+    "source": "contracts\\AlgoPredict.algo.ts:65",
+    "pc": [
+      381
+    ]
+  },
+  {
+    "teal": 356,
+    "source": "contracts\\AlgoPredict.algo.ts:65",
+    "pc": [
+      382,
+      383
+    ]
+  },
+  {
+    "teal": 357,
+    "source": "contracts\\AlgoPredict.algo.ts:65",
+    "pc": [
+      384
+    ]
+  },
+  {
+    "teal": 358,
+    "source": "contracts\\AlgoPredict.algo.ts:65",
+    "pc": [
+      385,
+      386,
+      387
+    ]
+  },
+  {
+    "teal": 364,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      388,
+      389
+    ]
+  },
+  {
+    "teal": 365,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      390
+    ]
+  },
+  {
+    "teal": 366,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      391
+    ]
+  },
+  {
+    "teal": 367,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      392
+    ]
+  },
+  {
+    "teal": 368,
+    "source": "contracts\\AlgoPredict.algo.ts:66",
+    "pc": [
+      393
+    ]
+  },
+  {
+    "teal": 369,
+    "source": "contracts\\AlgoPredict.algo.ts:66",
+    "pc": [
+      394,
+      395
+    ]
+  },
+  {
+    "teal": 370,
+    "source": "contracts\\AlgoPredict.algo.ts:66",
+    "pc": [
+      396
+    ]
+  },
+  {
+    "teal": 371,
+    "source": "contracts\\AlgoPredict.algo.ts:66",
+    "pc": [
+      397,
+      398,
+      399
+    ]
+  },
+  {
+    "teal": 376,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      400,
+      401
+    ]
+  },
+  {
+    "teal": 377,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      402
+    ]
+  },
+  {
+    "teal": 378,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      403
+    ]
+  },
+  {
+    "teal": 379,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      404
+    ]
+  },
+  {
+    "teal": 380,
+    "source": "contracts\\AlgoPredict.algo.ts:67",
+    "pc": [
+      405
+    ]
+  },
+  {
+    "teal": 381,
+    "source": "contracts\\AlgoPredict.algo.ts:67",
+    "pc": [
+      406,
+      407
+    ]
+  },
+  {
+    "teal": 382,
+    "source": "contracts\\AlgoPredict.algo.ts:67",
+    "pc": [
+      408
+    ]
+  },
+  {
+    "teal": 383,
+    "source": "contracts\\AlgoPredict.algo.ts:67",
+    "pc": [
+      409,
+      410
+    ]
+  },
+  {
+    "teal": 388,
+    "source": "contracts\\AlgoPredict.algo.ts:68",
+    "pc": [
+      411,
+      412
+    ]
+  },
+  {
+    "teal": 389,
+    "source": "contracts\\AlgoPredict.algo.ts:68",
+    "pc": [
+      413
+    ]
+  },
+  {
+    "teal": 390,
+    "source": "contracts\\AlgoPredict.algo.ts:68",
+    "pc": [
+      414
+    ]
+  },
+  {
+    "teal": 391,
+    "source": "contracts\\AlgoPredict.algo.ts:68",
+    "pc": [
+      415,
+      416,
+      417
+    ]
+  },
+  {
+    "teal": 396,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      418,
+      419
+    ]
+  },
+  {
+    "teal": 397,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      420
+    ]
+  },
+  {
+    "teal": 400,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      421
+    ]
+  },
+  {
+    "teal": 401,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      422,
+      423
+    ]
+  },
+  {
+    "teal": 402,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      424,
+      425
+    ]
+  },
+  {
+    "teal": 403,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      426
+    ]
+  },
+  {
+    "teal": 404,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      427,
+      428
+    ]
+  },
+  {
+    "teal": 405,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      429
+    ]
+  },
+  {
+    "teal": 408,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      430
+    ]
+  },
+  {
+    "teal": 409,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      431,
+      432
+    ]
+  },
+  {
+    "teal": 410,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      433,
+      434
+    ]
+  },
+  {
+    "teal": 411,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      435,
+      436,
+      437
+    ]
+  },
+  {
+    "teal": 412,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      438
+    ]
+  },
+  {
+    "teal": 413,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      439,
+      440
+    ]
+  },
+  {
+    "teal": 414,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      441
+    ]
+  },
+  {
+    "teal": 415,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      442
+    ]
+  },
+  {
+    "teal": 416,
+    "source": "contracts\\AlgoPredict.algo.ts:69",
+    "pc": [
+      443
+    ]
+  },
+  {
+    "teal": 417,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      444,
+      445
+    ]
+  },
+  {
+    "teal": 418,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      446
+    ]
+  },
+  {
+    "teal": 419,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      447
+    ]
+  },
+  {
+    "teal": 420,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      448
+    ]
+  },
+  {
+    "teal": 421,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      449
+    ]
+  },
+  {
+    "teal": 422,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      450
+    ]
+  },
+  {
+    "teal": 423,
+    "source": "contracts\\AlgoPredict.algo.ts:68",
+    "pc": [
+      451,
+      452,
+      453
+    ]
+  },
+  {
+    "teal": 428,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      454,
+      455
+    ]
+  },
+  {
+    "teal": 429,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      456
+    ]
+  },
+  {
+    "teal": 432,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      457
+    ]
+  },
+  {
+    "teal": 433,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      458,
+      459
+    ]
+  },
+  {
+    "teal": 434,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      460,
+      461
+    ]
+  },
+  {
+    "teal": 435,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      462,
+      463
+    ]
+  },
+  {
+    "teal": 436,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      464,
+      465
+    ]
+  },
+  {
+    "teal": 437,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      466
+    ]
+  },
+  {
+    "teal": 440,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      467
+    ]
+  },
+  {
+    "teal": 441,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      468,
+      469
+    ]
+  },
+  {
+    "teal": 442,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      470,
+      471
+    ]
+  },
+  {
+    "teal": 443,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      472,
+      473,
+      474
+    ]
+  },
+  {
+    "teal": 444,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      475
+    ]
+  },
+  {
+    "teal": 445,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      476,
+      477
+    ]
+  },
+  {
+    "teal": 446,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      478
+    ]
+  },
+  {
+    "teal": 447,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      479
+    ]
+  },
+  {
+    "teal": 448,
+    "source": "contracts\\AlgoPredict.algo.ts:71",
+    "pc": [
+      480
+    ]
+  },
+  {
+    "teal": 449,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      481,
+      482
+    ]
+  },
+  {
+    "teal": 450,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      483
+    ]
+  },
+  {
+    "teal": 451,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      484
+    ]
+  },
+  {
+    "teal": 452,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      485
+    ]
+  },
+  {
+    "teal": 453,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      486
+    ]
+  },
+  {
+    "teal": 454,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      487
+    ]
+  },
+  {
+    "teal": 459,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      488
+    ]
+  },
+  {
+    "teal": 460,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      489
+    ]
+  },
+  {
+    "teal": 461,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      490,
+      491
+    ]
+  },
+  {
+    "teal": 465,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      492,
+      493
+    ]
+  },
+  {
+    "teal": 466,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      494,
+      495
+    ]
+  },
+  {
+    "teal": 470,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      496,
+      497
+    ]
+  },
+  {
+    "teal": 471,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      498,
+      499
+    ]
+  },
+  {
+    "teal": 474,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      500
+    ]
+  },
+  {
+    "teal": 475,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      501,
+      502
+    ]
+  },
+  {
+    "teal": 478,
+    "source": "contracts\\AlgoPredict.algo.ts:73",
+    "pc": [
+      503
+    ]
+  },
+  {
+    "teal": 479,
+    "source": "contracts\\AlgoPredict.algo.ts:66",
+    "pc": [
+      504,
+      505,
+      506
+    ]
+  },
+  {
+    "teal": 484,
+    "source": "contracts\\AlgoPredict.algo.ts:75",
+    "pc": [
+      507,
+      508
+    ]
+  },
+  {
+    "teal": 485,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      509,
+      510
+    ]
+  },
+  {
+    "teal": 486,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      511
+    ]
+  },
+  {
+    "teal": 487,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      512
+    ]
+  },
+  {
+    "teal": 488,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      513
+    ]
+  },
+  {
+    "teal": 489,
+    "source": "contracts\\AlgoPredict.algo.ts:75",
+    "pc": [
+      514
+    ]
+  },
+  {
+    "teal": 490,
+    "source": "contracts\\AlgoPredict.algo.ts:75",
+    "pc": [
+      515
+    ]
+  },
+  {
+    "teal": 491,
+    "source": "contracts\\AlgoPredict.algo.ts:75",
+    "pc": [
+      516,
+      517
+    ]
+  },
+  {
+    "teal": 496,
+    "source": "contracts\\AlgoPredict.algo.ts:76",
+    "pc": [
+      518,
+      519
+    ]
+  },
+  {
+    "teal": 497,
+    "source": "contracts\\AlgoPredict.algo.ts:76",
+    "pc": [
+      520
+    ]
+  },
+  {
+    "teal": 498,
+    "source": "contracts\\AlgoPredict.algo.ts:76",
+    "pc": [
+      521
+    ]
+  },
+  {
+    "teal": 499,
+    "source": "contracts\\AlgoPredict.algo.ts:76",
+    "pc": [
+      522,
+      523,
+      524
+    ]
+  },
+  {
+    "teal": 504,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      525,
+      526
+    ]
+  },
+  {
+    "teal": 505,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      527
+    ]
+  },
+  {
+    "teal": 508,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      528
+    ]
+  },
+  {
+    "teal": 509,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      529,
+      530
+    ]
+  },
+  {
+    "teal": 510,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      531,
+      532
+    ]
+  },
+  {
+    "teal": 511,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      533
+    ]
+  },
+  {
+    "teal": 512,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      534,
+      535
+    ]
+  },
+  {
+    "teal": 513,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      536
+    ]
+  },
+  {
+    "teal": 516,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      537
+    ]
+  },
+  {
+    "teal": 517,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      538,
+      539
+    ]
+  },
+  {
+    "teal": 518,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      540,
+      541
+    ]
+  },
+  {
+    "teal": 519,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      542,
+      543,
+      544
+    ]
+  },
+  {
+    "teal": 520,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      545
+    ]
+  },
+  {
+    "teal": 521,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      546,
+      547
+    ]
+  },
+  {
+    "teal": 522,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      548
+    ]
+  },
+  {
+    "teal": 523,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      549
+    ]
+  },
+  {
+    "teal": 524,
+    "source": "contracts\\AlgoPredict.algo.ts:77",
+    "pc": [
+      550
+    ]
+  },
+  {
+    "teal": 525,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      551,
+      552
+    ]
+  },
+  {
+    "teal": 526,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      553
+    ]
+  },
+  {
+    "teal": 527,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      554
+    ]
+  },
+  {
+    "teal": 528,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      555
+    ]
+  },
+  {
+    "teal": 529,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      556
+    ]
+  },
+  {
+    "teal": 530,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      557
+    ]
+  },
+  {
+    "teal": 531,
+    "source": "contracts\\AlgoPredict.algo.ts:76",
+    "pc": [
+      558,
+      559,
+      560
+    ]
+  },
+  {
+    "teal": 536,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      561,
+      562
+    ]
+  },
+  {
+    "teal": 537,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      563
+    ]
+  },
+  {
+    "teal": 540,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      564
+    ]
+  },
+  {
+    "teal": 541,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      565,
+      566
+    ]
+  },
+  {
+    "teal": 542,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      567,
+      568
+    ]
+  },
+  {
+    "teal": 543,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      569,
+      570
+    ]
+  },
+  {
+    "teal": 544,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      571,
+      572
+    ]
+  },
+  {
+    "teal": 545,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      573
+    ]
+  },
+  {
+    "teal": 548,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      574
+    ]
+  },
+  {
+    "teal": 549,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      575,
+      576
+    ]
+  },
+  {
+    "teal": 550,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      577,
+      578
+    ]
+  },
+  {
+    "teal": 551,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      579,
+      580,
+      581
+    ]
+  },
+  {
+    "teal": 552,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      582
+    ]
+  },
+  {
+    "teal": 553,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      583,
+      584
+    ]
+  },
+  {
+    "teal": 554,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      585
+    ]
+  },
+  {
+    "teal": 555,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      586
+    ]
+  },
+  {
+    "teal": 556,
+    "source": "contracts\\AlgoPredict.algo.ts:79",
+    "pc": [
+      587
+    ]
+  },
+  {
+    "teal": 557,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      588,
+      589
+    ]
+  },
+  {
+    "teal": 558,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      590
+    ]
+  },
+  {
+    "teal": 559,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      591
+    ]
+  },
+  {
+    "teal": 560,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      592
+    ]
+  },
+  {
+    "teal": 561,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      593
+    ]
+  },
+  {
+    "teal": 562,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      594
+    ]
+  },
+  {
+    "teal": 568,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      595,
+      596
+    ]
+  },
+  {
+    "teal": 569,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      597,
+      598
+    ]
+  },
+  {
+    "teal": 570,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      599,
+      600
+    ]
+  },
+  {
+    "teal": 571,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      601
+    ]
+  },
+  {
+    "teal": 574,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      602
+    ]
+  },
+  {
+    "teal": 577,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      603,
+      604
+    ]
+  },
+  {
+    "teal": 578,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      605,
+      606
+    ]
+  },
+  {
+    "teal": 579,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      607,
+      608
+    ]
+  },
+  {
+    "teal": 580,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "pc": [
+      609
+    ]
+  },
+  {
+    "teal": 583,
+    "source": "contracts\\AlgoPredict.algo.ts:81",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=diff\"}",
+    "pc": [
+      610
+    ]
+  },
+  {
+    "teal": 586,
+    "source": "contracts\\AlgoPredict.algo.ts:65",
+    "pc": [
+      611,
+      612,
+      613
+    ]
+  },
+  {
+    "teal": 591,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      614,
+      615
+    ]
+  },
+  {
+    "teal": 592,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      616
+    ]
+  },
+  {
+    "teal": 593,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      617
+    ]
+  },
+  {
+    "teal": 594,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      618
+    ]
+  },
+  {
+    "teal": 595,
+    "source": "contracts\\AlgoPredict.algo.ts:83",
+    "pc": [
+      619
+    ]
+  },
+  {
+    "teal": 596,
+    "source": "contracts\\AlgoPredict.algo.ts:83",
+    "pc": [
+      620,
+      621
+    ]
+  },
+  {
+    "teal": 597,
+    "source": "contracts\\AlgoPredict.algo.ts:83",
+    "pc": [
+      622
+    ]
+  },
+  {
+    "teal": 598,
+    "source": "contracts\\AlgoPredict.algo.ts:83",
+    "pc": [
+      623,
+      624,
+      625
+    ]
+  },
+  {
+    "teal": 603,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      626,
+      627
+    ]
+  },
+  {
+    "teal": 604,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      628
+    ]
+  },
+  {
+    "teal": 605,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      629
+    ]
+  },
+  {
+    "teal": 606,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      630
+    ]
+  },
+  {
+    "teal": 607,
+    "source": "contracts\\AlgoPredict.algo.ts:84",
+    "pc": [
+      631
+    ]
+  },
+  {
+    "teal": 608,
+    "source": "contracts\\AlgoPredict.algo.ts:84",
+    "pc": [
+      632,
+      633
+    ]
+  },
+  {
+    "teal": 609,
+    "source": "contracts\\AlgoPredict.algo.ts:84",
+    "pc": [
+      634
+    ]
+  },
+  {
+    "teal": 610,
+    "source": "contracts\\AlgoPredict.algo.ts:84",
+    "pc": [
+      635,
+      636
+    ]
+  },
+  {
+    "teal": 615,
+    "source": "contracts\\AlgoPredict.algo.ts:85",
+    "pc": [
+      637,
+      638
+    ]
+  },
+  {
+    "teal": 616,
+    "source": "contracts\\AlgoPredict.algo.ts:85",
+    "pc": [
+      639
+    ]
+  },
+  {
+    "teal": 617,
+    "source": "contracts\\AlgoPredict.algo.ts:85",
+    "pc": [
+      640
+    ]
+  },
+  {
+    "teal": 618,
+    "source": "contracts\\AlgoPredict.algo.ts:85",
+    "pc": [
+      641,
+      642,
+      643
+    ]
+  },
+  {
+    "teal": 623,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      644,
+      645
+    ]
+  },
+  {
+    "teal": 624,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      646
+    ]
+  },
+  {
+    "teal": 627,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      647
+    ]
+  },
+  {
+    "teal": 628,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      648,
+      649
+    ]
+  },
+  {
+    "teal": 629,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      650,
+      651
+    ]
+  },
+  {
+    "teal": 630,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      652
+    ]
+  },
+  {
+    "teal": 631,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      653,
+      654
+    ]
+  },
+  {
+    "teal": 632,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      655
+    ]
+  },
+  {
+    "teal": 635,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      656
+    ]
+  },
+  {
+    "teal": 636,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      657,
+      658
+    ]
+  },
+  {
+    "teal": 637,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      659,
+      660
+    ]
+  },
+  {
+    "teal": 638,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      661,
+      662,
+      663
+    ]
+  },
+  {
+    "teal": 639,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      664
+    ]
+  },
+  {
+    "teal": 640,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      665,
+      666
+    ]
+  },
+  {
+    "teal": 641,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      667
+    ]
+  },
+  {
+    "teal": 642,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      668
+    ]
+  },
+  {
+    "teal": 643,
+    "source": "contracts\\AlgoPredict.algo.ts:86",
+    "pc": [
+      669
+    ]
+  },
+  {
+    "teal": 644,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      670,
+      671
+    ]
+  },
+  {
+    "teal": 645,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      672
+    ]
+  },
+  {
+    "teal": 646,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      673
+    ]
+  },
+  {
+    "teal": 647,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      674
+    ]
+  },
+  {
+    "teal": 648,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      675
+    ]
+  },
+  {
+    "teal": 649,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      676
+    ]
+  },
+  {
+    "teal": 653,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      677,
+      678
+    ]
+  },
+  {
+    "teal": 654,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      679
+    ]
+  },
+  {
+    "teal": 657,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      680
+    ]
+  },
+  {
+    "teal": 658,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      681,
+      682
+    ]
+  },
+  {
+    "teal": 659,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      683,
+      684
+    ]
+  },
+  {
+    "teal": 660,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      685,
+      686
+    ]
+  },
+  {
+    "teal": 661,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      687,
+      688
+    ]
+  },
+  {
+    "teal": 662,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      689
+    ]
+  },
+  {
+    "teal": 665,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      690
+    ]
+  },
+  {
+    "teal": 666,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      691,
+      692
+    ]
+  },
+  {
+    "teal": 667,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      693,
+      694
+    ]
+  },
+  {
+    "teal": 668,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      695,
+      696,
+      697
+    ]
+  },
+  {
+    "teal": 669,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      698
+    ]
+  },
+  {
+    "teal": 670,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      699,
+      700
+    ]
+  },
+  {
+    "teal": 671,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      701
+    ]
+  },
+  {
+    "teal": 672,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      702
+    ]
+  },
+  {
+    "teal": 673,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      703
+    ]
+  },
+  {
+    "teal": 674,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      704
+    ]
+  },
+  {
+    "teal": 675,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      705
+    ]
+  },
+  {
+    "teal": 676,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      706
+    ]
+  },
+  {
+    "teal": 677,
+    "source": "contracts\\AlgoPredict.algo.ts:87",
+    "pc": [
+      707
+    ]
+  },
+  {
+    "teal": 678,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      708,
+      709
+    ]
+  },
+  {
+    "teal": 679,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      710
+    ]
+  },
+  {
+    "teal": 680,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      711
+    ]
+  },
+  {
+    "teal": 681,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      712
+    ]
+  },
+  {
+    "teal": 682,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      713
+    ]
+  },
+  {
+    "teal": 683,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      714
+    ]
+  },
+  {
+    "teal": 684,
+    "source": "contracts\\AlgoPredict.algo.ts:85",
+    "pc": [
+      715,
+      716,
+      717
+    ]
+  },
+  {
+    "teal": 689,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      718,
+      719
+    ]
+  },
+  {
+    "teal": 690,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      720
+    ]
+  },
+  {
+    "teal": 693,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      721
+    ]
+  },
+  {
+    "teal": 694,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      722,
+      723
+    ]
+  },
+  {
+    "teal": 695,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      724,
+      725
+    ]
+  },
+  {
+    "teal": 696,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      726,
+      727
+    ]
+  },
+  {
+    "teal": 697,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      728,
+      729
+    ]
+  },
+  {
+    "teal": 698,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      730
+    ]
+  },
+  {
+    "teal": 701,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      731
+    ]
+  },
+  {
+    "teal": 702,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      732,
+      733
+    ]
+  },
+  {
+    "teal": 703,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      734,
+      735
+    ]
+  },
+  {
+    "teal": 704,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      736,
+      737,
+      738
+    ]
+  },
+  {
+    "teal": 705,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      739
+    ]
+  },
+  {
+    "teal": 706,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      740,
+      741
+    ]
+  },
+  {
+    "teal": 707,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      742
+    ]
+  },
+  {
+    "teal": 708,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      743
+    ]
+  },
+  {
+    "teal": 709,
+    "source": "contracts\\AlgoPredict.algo.ts:89",
+    "pc": [
+      744
+    ]
+  },
+  {
+    "teal": 710,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      745,
+      746
+    ]
+  },
+  {
+    "teal": 711,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      747
+    ]
+  },
+  {
+    "teal": 712,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      748
+    ]
+  },
+  {
+    "teal": 713,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      749
+    ]
+  },
+  {
+    "teal": 714,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      750
+    ]
+  },
+  {
+    "teal": 715,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      751
+    ]
+  },
+  {
+    "teal": 719,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      752,
+      753
+    ]
+  },
+  {
+    "teal": 720,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      754
+    ]
+  },
+  {
+    "teal": 723,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      755
+    ]
+  },
+  {
+    "teal": 724,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      756,
+      757
+    ]
+  },
+  {
+    "teal": 725,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      758,
+      759
+    ]
+  },
+  {
+    "teal": 726,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      760
+    ]
+  },
+  {
+    "teal": 727,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      761,
+      762
+    ]
+  },
+  {
+    "teal": 728,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      763
+    ]
+  },
+  {
+    "teal": 731,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      764
+    ]
+  },
+  {
+    "teal": 732,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      765,
+      766
+    ]
+  },
+  {
+    "teal": 733,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      767,
+      768
+    ]
+  },
+  {
+    "teal": 734,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      769,
+      770,
+      771
+    ]
+  },
+  {
+    "teal": 735,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      772
+    ]
+  },
+  {
+    "teal": 736,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      773,
+      774
+    ]
+  },
+  {
+    "teal": 737,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      775
+    ]
+  },
+  {
+    "teal": 738,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      776
+    ]
+  },
+  {
+    "teal": 739,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      777
+    ]
+  },
+  {
+    "teal": 740,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      778
+    ]
+  },
+  {
+    "teal": 741,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      779
+    ]
+  },
+  {
+    "teal": 742,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      780
+    ]
+  },
+  {
+    "teal": 743,
+    "source": "contracts\\AlgoPredict.algo.ts:90",
+    "pc": [
+      781
+    ]
+  },
+  {
+    "teal": 744,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      782,
+      783
+    ]
+  },
+  {
+    "teal": 745,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      784
+    ]
+  },
+  {
+    "teal": 746,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      785
+    ]
+  },
+  {
+    "teal": 747,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      786
+    ]
+  },
+  {
+    "teal": 748,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      787
+    ]
+  },
+  {
+    "teal": 749,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      788
+    ]
+  },
+  {
+    "teal": 754,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      789
+    ]
+  },
+  {
+    "teal": 755,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      790
+    ]
+  },
+  {
+    "teal": 756,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      791,
+      792
+    ]
+  },
+  {
+    "teal": 760,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      793,
+      794
+    ]
+  },
+  {
+    "teal": 761,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      795,
+      796
+    ]
+  },
+  {
+    "teal": 765,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      797,
+      798
+    ]
+  },
+  {
+    "teal": 766,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      799,
+      800
+    ]
+  },
+  {
+    "teal": 769,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      801
+    ]
+  },
+  {
+    "teal": 770,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      802,
+      803
+    ]
+  },
+  {
+    "teal": 773,
+    "source": "contracts\\AlgoPredict.algo.ts:92",
+    "pc": [
+      804
+    ]
+  },
+  {
+    "teal": 774,
+    "source": "contracts\\AlgoPredict.algo.ts:83",
+    "pc": [
+      805,
+      806,
+      807
+    ]
+  },
+  {
+    "teal": 779,
+    "source": "contracts\\AlgoPredict.algo.ts:94",
+    "pc": [
+      808,
+      809
+    ]
+  },
+  {
+    "teal": 780,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      810,
+      811
+    ]
+  },
+  {
+    "teal": 781,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      812
+    ]
+  },
+  {
+    "teal": 782,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      813
+    ]
+  },
+  {
+    "teal": 783,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      814
+    ]
+  },
+  {
+    "teal": 784,
+    "source": "contracts\\AlgoPredict.algo.ts:94",
+    "pc": [
+      815
+    ]
+  },
+  {
+    "teal": 785,
+    "source": "contracts\\AlgoPredict.algo.ts:94",
+    "pc": [
+      816
+    ]
+  },
+  {
+    "teal": 786,
+    "source": "contracts\\AlgoPredict.algo.ts:94",
+    "pc": [
+      817,
+      818
+    ]
+  },
+  {
+    "teal": 791,
+    "source": "contracts\\AlgoPredict.algo.ts:95",
+    "pc": [
+      819,
+      820
+    ]
+  },
+  {
+    "teal": 792,
+    "source": "contracts\\AlgoPredict.algo.ts:95",
+    "pc": [
+      821
+    ]
+  },
+  {
+    "teal": 793,
+    "source": "contracts\\AlgoPredict.algo.ts:95",
+    "pc": [
+      822
+    ]
+  },
+  {
+    "teal": 794,
+    "source": "contracts\\AlgoPredict.algo.ts:95",
+    "pc": [
+      823,
+      824,
+      825
+    ]
+  },
+  {
+    "teal": 799,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      826,
+      827
+    ]
+  },
+  {
+    "teal": 800,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      828
+    ]
+  },
+  {
+    "teal": 803,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      829
+    ]
+  },
+  {
+    "teal": 804,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      830,
+      831
+    ]
+  },
+  {
+    "teal": 805,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      832,
+      833
+    ]
+  },
+  {
+    "teal": 806,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      834
+    ]
+  },
+  {
+    "teal": 807,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      835,
+      836
+    ]
+  },
+  {
+    "teal": 808,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      837
+    ]
+  },
+  {
+    "teal": 811,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      838
+    ]
+  },
+  {
+    "teal": 812,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      839,
+      840
+    ]
+  },
+  {
+    "teal": 813,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      841,
+      842
+    ]
+  },
+  {
+    "teal": 814,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      843,
+      844,
+      845
+    ]
+  },
+  {
+    "teal": 815,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      846
+    ]
+  },
+  {
+    "teal": 816,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      847,
+      848
+    ]
+  },
+  {
+    "teal": 817,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      849
+    ]
+  },
+  {
+    "teal": 818,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      850
+    ]
+  },
+  {
+    "teal": 819,
+    "source": "contracts\\AlgoPredict.algo.ts:96",
+    "pc": [
+      851
+    ]
+  },
+  {
+    "teal": 820,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      852,
+      853
+    ]
+  },
+  {
+    "teal": 821,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      854
+    ]
+  },
+  {
+    "teal": 822,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      855
+    ]
+  },
+  {
+    "teal": 823,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      856
+    ]
+  },
+  {
+    "teal": 824,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      857
+    ]
+  },
+  {
+    "teal": 825,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      858
+    ]
+  },
+  {
+    "teal": 829,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      859,
+      860
+    ]
+  },
+  {
+    "teal": 830,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      861
+    ]
+  },
+  {
+    "teal": 833,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      862
+    ]
+  },
+  {
+    "teal": 834,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      863,
+      864
+    ]
+  },
+  {
+    "teal": 835,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      865,
+      866
+    ]
+  },
+  {
+    "teal": 836,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      867,
+      868
+    ]
+  },
+  {
+    "teal": 837,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      869,
+      870
+    ]
+  },
+  {
+    "teal": 838,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      871
+    ]
+  },
+  {
+    "teal": 841,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      872
+    ]
+  },
+  {
+    "teal": 842,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      873,
+      874
+    ]
+  },
+  {
+    "teal": 843,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      875,
+      876
+    ]
+  },
+  {
+    "teal": 844,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      877,
+      878,
+      879
+    ]
+  },
+  {
+    "teal": 845,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      880
+    ]
+  },
+  {
+    "teal": 846,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      881,
+      882
+    ]
+  },
+  {
+    "teal": 847,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      883
+    ]
+  },
+  {
+    "teal": 848,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      884
+    ]
+  },
+  {
+    "teal": 849,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      885
+    ]
+  },
+  {
+    "teal": 850,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      886
+    ]
+  },
+  {
+    "teal": 851,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      887
+    ]
+  },
+  {
+    "teal": 852,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      888
+    ]
+  },
+  {
+    "teal": 853,
+    "source": "contracts\\AlgoPredict.algo.ts:97",
+    "pc": [
+      889
+    ]
+  },
+  {
+    "teal": 854,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      890,
+      891
+    ]
+  },
+  {
+    "teal": 855,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      892
+    ]
+  },
+  {
+    "teal": 856,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      893
+    ]
+  },
+  {
+    "teal": 857,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      894
+    ]
+  },
+  {
+    "teal": 858,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      895
+    ]
+  },
+  {
+    "teal": 859,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      896
+    ]
+  },
+  {
+    "teal": 860,
+    "source": "contracts\\AlgoPredict.algo.ts:95",
+    "pc": [
+      897,
+      898,
+      899
+    ]
+  },
+  {
+    "teal": 865,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      900,
+      901
+    ]
+  },
+  {
+    "teal": 866,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      902
+    ]
+  },
+  {
+    "teal": 869,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      903
+    ]
+  },
+  {
+    "teal": 870,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      904,
+      905
+    ]
+  },
+  {
+    "teal": 871,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      906,
+      907
+    ]
+  },
+  {
+    "teal": 872,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      908,
+      909
+    ]
+  },
+  {
+    "teal": 873,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      910,
+      911
+    ]
+  },
+  {
+    "teal": 874,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      912
+    ]
+  },
+  {
+    "teal": 877,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      913
+    ]
+  },
+  {
+    "teal": 878,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      914,
+      915
+    ]
+  },
+  {
+    "teal": 879,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      916,
+      917
+    ]
+  },
+  {
+    "teal": 880,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      918,
+      919,
+      920
+    ]
+  },
+  {
+    "teal": 881,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      921
+    ]
+  },
+  {
+    "teal": 882,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      922,
+      923
+    ]
+  },
+  {
+    "teal": 883,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      924
+    ]
+  },
+  {
+    "teal": 884,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      925
+    ]
+  },
+  {
+    "teal": 885,
+    "source": "contracts\\AlgoPredict.algo.ts:99",
+    "pc": [
+      926
+    ]
+  },
+  {
+    "teal": 886,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      927,
+      928
+    ]
+  },
+  {
+    "teal": 887,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      929
+    ]
+  },
+  {
+    "teal": 888,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      930
+    ]
+  },
+  {
+    "teal": 889,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      931
+    ]
+  },
+  {
+    "teal": 890,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      932
+    ]
+  },
+  {
+    "teal": 891,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      933
+    ]
+  },
+  {
+    "teal": 895,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      934,
+      935
+    ]
+  },
+  {
+    "teal": 896,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      936
+    ]
+  },
+  {
+    "teal": 899,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      937
+    ]
+  },
+  {
+    "teal": 900,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      938,
+      939
+    ]
+  },
+  {
+    "teal": 901,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      940,
+      941
+    ]
+  },
+  {
+    "teal": 902,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      942
+    ]
+  },
+  {
+    "teal": 903,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      943,
+      944
+    ]
+  },
+  {
+    "teal": 904,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      945
+    ]
+  },
+  {
+    "teal": 907,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      946
+    ]
+  },
+  {
+    "teal": 908,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      947,
+      948
+    ]
+  },
+  {
+    "teal": 909,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      949,
+      950
+    ]
+  },
+  {
+    "teal": 910,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      951,
+      952,
+      953
+    ]
+  },
+  {
+    "teal": 911,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      954
+    ]
+  },
+  {
+    "teal": 912,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      955,
+      956
+    ]
+  },
+  {
+    "teal": 913,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      957
+    ]
+  },
+  {
+    "teal": 914,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      958
+    ]
+  },
+  {
+    "teal": 915,
+    "source": "contracts\\AlgoPredict.algo.ts:64",
+    "pc": [
+      959
+    ]
+  },
+  {
+    "teal": 916,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      960
+    ]
+  },
+  {
+    "teal": 917,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      961
+    ]
+  },
+  {
+    "teal": 918,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      962
+    ]
+  },
+  {
+    "teal": 919,
+    "source": "contracts\\AlgoPredict.algo.ts:100",
+    "pc": [
+      963
+    ]
+  },
+  {
+    "teal": 920,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      964,
+      965
+    ]
+  },
+  {
+    "teal": 921,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      966
+    ]
+  },
+  {
+    "teal": 922,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      967
+    ]
+  },
+  {
+    "teal": 923,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      968
+    ]
+  },
+  {
+    "teal": 924,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      969
+    ]
+  },
+  {
+    "teal": 925,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      970
+    ]
+  },
+  {
+    "teal": 931,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      971,
+      972
+    ]
+  },
+  {
+    "teal": 932,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      973,
+      974
+    ]
+  },
+  {
+    "teal": 933,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      975,
+      976
+    ]
+  },
+  {
+    "teal": 934,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      977
+    ]
+  },
+  {
+    "teal": 937,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      978
+    ]
+  },
+  {
+    "teal": 940,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      979,
+      980
+    ]
+  },
+  {
+    "teal": 941,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      981,
+      982
+    ]
+  },
+  {
+    "teal": 942,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      983,
+      984
+    ]
+  },
+  {
+    "teal": 943,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "pc": [
+      985
+    ]
+  },
+  {
+    "teal": 946,
+    "source": "contracts\\AlgoPredict.algo.ts:102",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=diff\"}",
+    "pc": [
+      986
+    ]
+  },
+  {
+    "teal": 955,
+    "source": "contracts\\AlgoPredict.algo.ts:104",
+    "pc": [
+      987,
+      988
+    ]
+  },
+  {
+    "teal": 956,
+    "source": "contracts\\AlgoPredict.algo.ts:105",
+    "pc": [
+      989,
+      990
+    ]
+  },
+  {
+    "teal": 957,
+    "source": "contracts\\AlgoPredict.algo.ts:105",
+    "pc": [
+      991
+    ]
+  },
+  {
+    "teal": 958,
+    "source": "contracts\\AlgoPredict.algo.ts:105",
+    "pc": [
+      992,
+      993,
+      994
+    ]
+  },
+  {
+    "teal": 959,
+    "source": "contracts\\AlgoPredict.algo.ts:106",
+    "pc": [
+      995,
+      996
+    ]
+  },
+  {
+    "teal": 960,
+    "source": "contracts\\AlgoPredict.algo.ts:106",
+    "pc": [
+      997
+    ]
+  },
+  {
+    "teal": 961,
+    "source": "contracts\\AlgoPredict.algo.ts:106",
+    "pc": [
+      998
+    ]
+  },
+  {
+    "teal": 962,
+    "source": "contracts\\AlgoPredict.algo.ts:107",
+    "pc": [
+      999
+    ]
+  },
+  {
+    "teal": 963,
+    "source": "contracts\\AlgoPredict.algo.ts:107",
+    "pc": [
+      1000
+    ]
+  },
+  {
+    "teal": 964,
+    "source": "contracts\\AlgoPredict.algo.ts:104",
+    "pc": [
+      1001
+    ]
+  },
+  {
+    "teal": 965,
+    "source": "contracts\\AlgoPredict.algo.ts:63",
+    "pc": [
+      1002,
+      1003,
+      1004
+    ]
+  },
+  {
+    "teal": 971,
+    "source": "contracts\\AlgoPredict.algo.ts:110",
+    "pc": [
+      1005,
+      1006
+    ]
+  },
+  {
+    "teal": 972,
+    "source": "contracts\\AlgoPredict.algo.ts:110",
+    "pc": [
+      1007
+    ]
+  },
+  {
+    "teal": 973,
+    "source": "contracts\\AlgoPredict.algo.ts:110",
+    "pc": [
+      1008
+    ]
+  },
+  {
+    "teal": 974,
+    "source": "contracts\\AlgoPredict.algo.ts:110",
+    "pc": [
+      1009,
+      1010,
+      1011
+    ]
+  },
+  {
+    "teal": 979,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1012,
+      1013
+    ]
+  },
+  {
+    "teal": 980,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1014
+    ]
+  },
+  {
+    "teal": 983,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1015
+    ]
+  },
+  {
+    "teal": 984,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1016,
+      1017
+    ]
+  },
+  {
+    "teal": 985,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1018,
+      1019
+    ]
+  },
+  {
+    "teal": 986,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1020
+    ]
+  },
+  {
+    "teal": 987,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1021,
+      1022
+    ]
+  },
+  {
+    "teal": 988,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1023
+    ]
+  },
+  {
+    "teal": 991,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1024
+    ]
+  },
+  {
+    "teal": 992,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1025,
+      1026
+    ]
+  },
+  {
+    "teal": 993,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1027,
+      1028
+    ]
+  },
+  {
+    "teal": 994,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1029,
+      1030,
+      1031
+    ]
+  },
+  {
+    "teal": 995,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1032
+    ]
+  },
+  {
+    "teal": 996,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1033,
+      1034
+    ]
+  },
+  {
+    "teal": 997,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1035
+    ]
+  },
+  {
+    "teal": 998,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1036
+    ]
+  },
+  {
+    "teal": 999,
+    "source": "contracts\\AlgoPredict.algo.ts:111",
+    "pc": [
+      1037
+    ]
+  },
+  {
+    "teal": 1000,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1038,
+      1039
+    ]
+  },
+  {
+    "teal": 1001,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1040
+    ]
+  },
+  {
+    "teal": 1002,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1041
+    ]
+  },
+  {
+    "teal": 1003,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1042
+    ]
+  },
+  {
+    "teal": 1004,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1043
+    ]
+  },
+  {
+    "teal": 1005,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1044
+    ]
+  },
+  {
+    "teal": 1006,
+    "source": "contracts\\AlgoPredict.algo.ts:110",
+    "pc": [
+      1045,
+      1046,
+      1047
+    ]
+  },
+  {
+    "teal": 1011,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1048,
+      1049
+    ]
+  },
+  {
+    "teal": 1012,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1050
+    ]
+  },
+  {
+    "teal": 1015,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1051
+    ]
+  },
+  {
+    "teal": 1016,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1052,
+      1053
+    ]
+  },
+  {
+    "teal": 1017,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1054,
+      1055
+    ]
+  },
+  {
+    "teal": 1018,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1056,
+      1057
+    ]
+  },
+  {
+    "teal": 1019,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1058,
+      1059
+    ]
+  },
+  {
+    "teal": 1020,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1060
+    ]
+  },
+  {
+    "teal": 1023,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1061
+    ]
+  },
+  {
+    "teal": 1024,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1062,
+      1063
+    ]
+  },
+  {
+    "teal": 1025,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1064,
+      1065
+    ]
+  },
+  {
+    "teal": 1026,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1066,
+      1067,
+      1068
+    ]
+  },
+  {
+    "teal": 1027,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1069
+    ]
+  },
+  {
+    "teal": 1028,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1070,
+      1071
+    ]
+  },
+  {
+    "teal": 1029,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1072
+    ]
+  },
+  {
+    "teal": 1030,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1073
+    ]
+  },
+  {
+    "teal": 1031,
+    "source": "contracts\\AlgoPredict.algo.ts:113",
+    "pc": [
+      1074
+    ]
+  },
+  {
+    "teal": 1032,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1075,
+      1076
+    ]
+  },
+  {
+    "teal": 1033,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1077
+    ]
+  },
+  {
+    "teal": 1034,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1078
+    ]
+  },
+  {
+    "teal": 1035,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1079
+    ]
+  },
+  {
+    "teal": 1036,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1080
+    ]
+  },
+  {
+    "teal": 1037,
+    "source": "contracts\\AlgoPredict.algo.ts:56",
+    "pc": [
+      1081
+    ]
+  },
+  {
+    "teal": 1043,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1082,
+      1083
+    ]
+  },
+  {
+    "teal": 1044,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1084,
+      1085
+    ]
+  },
+  {
+    "teal": 1045,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1086,
+      1087
+    ]
+  },
+  {
+    "teal": 1046,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1088
+    ]
+  },
+  {
+    "teal": 1049,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"receiver\",\"expected\":\"this.app.address\"}",
+    "pc": [
+      1089
+    ]
+  },
+  {
+    "teal": 1052,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1090,
+      1091
+    ]
+  },
+  {
+    "teal": 1053,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1092,
+      1093
+    ]
+  },
+  {
+    "teal": 1054,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1094,
+      1095
+    ]
+  },
+  {
+    "teal": 1055,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "pc": [
+      1096
+    ]
+  },
+  {
+    "teal": 1058,
+    "source": "contracts\\AlgoPredict.algo.ts:115",
+    "errorMessage": "transaction verification failed: {\"txn\":\"payTxn\",\"field\":\"amount\",\"condition\":\"greaterThanEqualTo\",\"expected\":\">=amount\"}",
+    "pc": [
+      1097
+    ]
+  },
+  {
+    "teal": 1066,
+    "source": "contracts\\AlgoPredict.algo.ts:116",
+    "pc": [
+      1098,
+      1099
+    ]
+  },
+  {
+    "teal": 1067,
+    "source": "contracts\\AlgoPredict.algo.ts:117",
+    "pc": [
+      1100,
+      1101
+    ]
+  },
+  {
+    "teal": 1068,
+    "source": "contracts\\AlgoPredict.algo.ts:117",
+    "pc": [
+      1102
+    ]
+  },
+  {
+    "teal": 1069,
+    "source": "contracts\\AlgoPredict.algo.ts:117",
+    "pc": [
+      1103,
+      1104,
+      1105
+    ]
+  },
+  {
+    "teal": 1070,
+    "source": "contracts\\AlgoPredict.algo.ts:118",
+    "pc": [
+      1106,
+      1107
+    ]
+  },
+  {
+    "teal": 1071,
+    "source": "contracts\\AlgoPredict.algo.ts:118",
+    "pc": [
+      1108
+    ]
+  },
+  {
+    "teal": 1072,
+    "source": "contracts\\AlgoPredict.algo.ts:118",
+    "pc": [
+      1109
+    ]
+  },
+  {
+    "teal": 1073,
+    "source": "contracts\\AlgoPredict.algo.ts:119",
+    "pc": [
+      1110
+    ]
+  },
+  {
+    "teal": 1074,
+    "source": "contracts\\AlgoPredict.algo.ts:119",
+    "pc": [
+      1111
+    ]
+  },
+  {
+    "teal": 1075,
+    "source": "contracts\\AlgoPredict.algo.ts:116",
+    "pc": [
+      1112
+    ]
+  },
+  {
+    "teal": 1078,
+    "source": "contracts\\AlgoPredict.algo.ts:54",
+    "pc": [
+      1113
+    ]
+  },
+  {
+    "teal": 1083,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1114,
+      1115,
+      1116
+    ]
+  },
+  {
+    "teal": 1084,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1117
+    ]
+  },
+  {
+    "teal": 1085,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1118
+    ]
+  },
+  {
+    "teal": 1086,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1119
+    ]
+  },
+  {
+    "teal": 1087,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1120
+    ]
+  },
+  {
+    "teal": 1090,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "errorMessage": "argument 0 (result) for endPrediction must be a uint8",
+    "pc": [
+      1121
+    ]
+  },
+  {
+    "teal": 1091,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1122
+    ]
+  },
+  {
+    "teal": 1094,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1123,
+      1124,
+      1125
+    ]
+  },
+  {
+    "teal": 1095,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1126
+    ]
+  },
+  {
+    "teal": 1098,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1127,
+      1128,
+      1129
+    ]
+  },
+  {
+    "teal": 1099,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1130
+    ]
+  },
+  {
+    "teal": 1100,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1131
+    ]
+  },
+  {
+    "teal": 1104,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1132,
+      1133,
+      1134
+    ]
+  },
+  {
+    "teal": 1107,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1135
+    ]
+  },
+  {
+    "teal": 1111,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "pc": [
+      1136,
+      1137
+    ]
+  },
+  {
+    "teal": 1112,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "pc": [
+      1138,
+      1139,
+      1140
+    ]
+  },
+  {
+    "teal": 1113,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "pc": [
+      1141,
+      1142
+    ]
+  },
+  {
+    "teal": 1114,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "pc": [
+      1143
+    ]
+  },
+  {
+    "teal": 1115,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "pc": [
+      1144
+    ]
+  },
+  {
+    "teal": 1118,
+    "source": "contracts\\AlgoPredict.algo.ts:125",
+    "errorMessage": "Only creator can end prediction",
+    "pc": [
+      1145
+    ]
+  },
+  {
+    "teal": 1122,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "pc": [
+      1146,
+      1147
+    ]
+  },
+  {
+    "teal": 1123,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "pc": [
+      1148
+    ]
+  },
+  {
+    "teal": 1124,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "pc": [
+      1149
+    ]
+  },
+  {
+    "teal": 1125,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "pc": [
+      1150
+    ]
+  },
+  {
+    "teal": 1126,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "pc": [
+      1151
+    ]
+  },
+  {
+    "teal": 1129,
+    "source": "contracts\\AlgoPredict.algo.ts:126",
+    "errorMessage": "Prediction does not exist",
+    "pc": [
+      1152
+    ]
+  },
+  {
+    "teal": 1133,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1153,
+      1154
+    ]
+  },
+  {
+    "teal": 1134,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1155
+    ]
+  },
+  {
+    "teal": 1135,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1156,
+      1157
+    ]
+  },
+  {
+    "teal": 1139,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1158,
+      1159
+    ]
+  },
+  {
+    "teal": 1140,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1160,
+      1161
+    ]
+  },
+  {
+    "teal": 1141,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1162
+    ]
+  },
+  {
+    "teal": 1144,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1163
+    ]
+  },
+  {
+    "teal": 1145,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1164,
+      1165
+    ]
+  },
+  {
+    "teal": 1146,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1166,
+      1167
+    ]
+  },
+  {
+    "teal": 1147,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1168,
+      1169,
+      1170
+    ]
+  },
+  {
+    "teal": 1148,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1171
+    ]
+  },
+  {
+    "teal": 1149,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "pc": [
+      1172
+    ]
+  },
+  {
+    "teal": 1152,
+    "source": "contracts\\AlgoPredict.algo.ts:128",
+    "errorMessage": "Prediction has not ended yet",
+    "pc": [
+      1173
+    ]
+  },
+  {
+    "teal": 1156,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1174,
+      1175
+    ]
+  },
+  {
+    "teal": 1157,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1176
+    ]
+  },
+  {
+    "teal": 1160,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1177
+    ]
+  },
+  {
+    "teal": 1161,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1178,
+      1179
+    ]
+  },
+  {
+    "teal": 1162,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1180,
+      1181
+    ]
+  },
+  {
+    "teal": 1163,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1182,
+      1183,
+      1184
+    ]
+  },
+  {
+    "teal": 1164,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1185
+    ]
+  },
+  {
+    "teal": 1165,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1186
+    ]
+  },
+  {
+    "teal": 1166,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "pc": [
+      1187
+    ]
+  },
+  {
+    "teal": 1169,
+    "source": "contracts\\AlgoPredict.algo.ts:129",
+    "errorMessage": "Prediction result is already set",
+    "pc": [
+      1188
+    ]
+  },
+  {
+    "teal": 1173,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1189,
+      1190
+    ]
+  },
+  {
+    "teal": 1174,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1191
+    ]
+  },
+  {
+    "teal": 1177,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1192
+    ]
+  },
+  {
+    "teal": 1178,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1193,
+      1194
+    ]
+  },
+  {
+    "teal": 1179,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1195,
+      1196
+    ]
+  },
+  {
+    "teal": 1180,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1197,
+      1198
+    ]
+  },
+  {
+    "teal": 1181,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1199,
+      1200
+    ]
+  },
+  {
+    "teal": 1182,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1201
+    ]
+  },
+  {
+    "teal": 1183,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1202,
+      1203,
+      1204
+    ]
+  },
+  {
+    "teal": 1184,
+    "source": "contracts\\AlgoPredict.algo.ts:130",
+    "pc": [
+      1205
+    ]
+  },
+  {
+    "teal": 1185,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1206,
+      1207
+    ]
+  },
+  {
+    "teal": 1186,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1208
+    ]
+  },
+  {
+    "teal": 1187,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1209
+    ]
+  },
+  {
+    "teal": 1188,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1210
+    ]
+  },
+  {
+    "teal": 1189,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1211
+    ]
+  },
+  {
+    "teal": 1190,
+    "source": "contracts\\AlgoPredict.algo.ts:127",
+    "pc": [
+      1212
+    ]
+  },
+  {
+    "teal": 1191,
+    "source": "contracts\\AlgoPredict.algo.ts:124",
+    "pc": [
+      1213
+    ]
+  },
+  {
+    "teal": 1196,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1214,
+      1215,
+      1216
+    ]
+  },
+  {
+    "teal": 1197,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1217
+    ]
+  },
+  {
+    "teal": 1200,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1218,
+      1219,
+      1220
+    ]
+  },
+  {
+    "teal": 1201,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1221
+    ]
+  },
+  {
+    "teal": 1202,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1222
+    ]
+  },
+  {
+    "teal": 1206,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1223,
+      1224,
+      1225
+    ]
+  },
+  {
+    "teal": 1209,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1226
+    ]
+  },
+  {
+    "teal": 1210,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1227,
+      1228
+    ]
+  },
+  {
+    "teal": 1214,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "pc": [
+      1229,
+      1230
+    ]
+  },
+  {
+    "teal": 1215,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "pc": [
+      1231
+    ]
+  },
+  {
+    "teal": 1216,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "pc": [
+      1232
+    ]
+  },
+  {
+    "teal": 1217,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "pc": [
+      1233
+    ]
+  },
+  {
+    "teal": 1218,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "pc": [
+      1234
+    ]
+  },
+  {
+    "teal": 1221,
+    "source": "contracts\\AlgoPredict.algo.ts:134",
+    "errorMessage": "Prediction does not exist",
+    "pc": [
+      1235
+    ]
+  },
+  {
+    "teal": 1225,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1236,
+      1237
+    ]
+  },
+  {
+    "teal": 1226,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1238
+    ]
+  },
+  {
+    "teal": 1227,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1239,
+      1240
+    ]
+  },
+  {
+    "teal": 1231,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1241,
+      1242
+    ]
+  },
+  {
+    "teal": 1232,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1243,
+      1244
+    ]
+  },
+  {
+    "teal": 1233,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1245
+    ]
+  },
+  {
+    "teal": 1236,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1246
+    ]
+  },
+  {
+    "teal": 1237,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1247,
+      1248
+    ]
+  },
+  {
+    "teal": 1238,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1249,
+      1250
+    ]
+  },
+  {
+    "teal": 1239,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1251,
+      1252,
+      1253
+    ]
+  },
+  {
+    "teal": 1240,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1254
+    ]
+  },
+  {
+    "teal": 1241,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "pc": [
+      1255
+    ]
+  },
+  {
+    "teal": 1244,
+    "source": "contracts\\AlgoPredict.algo.ts:136",
+    "errorMessage": "Prediction has not ended yet",
+    "pc": [
+      1256
+    ]
+  },
+  {
+    "teal": 1248,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1257,
+      1258
+    ]
+  },
+  {
+    "teal": 1249,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1259
+    ]
+  },
+  {
+    "teal": 1252,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1260
+    ]
+  },
+  {
+    "teal": 1253,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1261,
+      1262
+    ]
+  },
+  {
+    "teal": 1254,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1263,
+      1264
+    ]
+  },
+  {
+    "teal": 1255,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1265,
+      1266,
+      1267
+    ]
+  },
+  {
+    "teal": 1256,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1268
+    ]
+  },
+  {
+    "teal": 1257,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1269
+    ]
+  },
+  {
+    "teal": 1258,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "pc": [
+      1270
+    ]
+  },
+  {
+    "teal": 1261,
+    "source": "contracts\\AlgoPredict.algo.ts:137",
+    "errorMessage": "Prediction result is not set yet",
+    "pc": [
+      1271
+    ]
+  },
+  {
+    "teal": 1265,
+    "source": "contracts\\AlgoPredict.algo.ts:138",
+    "pc": [
+      1272,
+      1273
+    ]
+  },
+  {
+    "teal": 1266,
+    "source": "contracts\\AlgoPredict.algo.ts:138",
+    "pc": [
+      1274,
+      1275
+    ]
+  },
+  {
+    "teal": 1267,
+    "source": "contracts\\AlgoPredict.algo.ts:138",
+    "pc": [
+      1276
+    ]
+  },
+  {
+    "teal": 1268,
+    "source": "contracts\\AlgoPredict.algo.ts:138",
+    "pc": [
+      1277
+    ]
+  },
+  {
+    "teal": 1269,
+    "source": "contracts\\AlgoPredict.algo.ts:138",
+    "pc": [
+      1278,
+      1279
+    ]
+  },
+  {
+    "teal": 1273,
+    "source": "contracts\\AlgoPredict.algo.ts:139",
+    "pc": [
+      1280,
+      1281
+    ]
+  },
+  {
+    "teal": 1274,
+    "source": "contracts\\AlgoPredict.algo.ts:139",
+    "pc": [
+      1282
+    ]
+  },
+  {
+    "teal": 1275,
+    "source": "contracts\\AlgoPredict.algo.ts:139",
+    "pc": [
+      1283
+    ]
+  },
+  {
+    "teal": 1276,
+    "source": "contracts\\AlgoPredict.algo.ts:139",
+    "pc": [
+      1284
+    ]
+  },
+  {
+    "teal": 1279,
+    "source": "contracts\\AlgoPredict.algo.ts:139",
+    "errorMessage": "User has not bought shares",
+    "pc": [
+      1285
+    ]
+  },
+  {
+    "teal": 1283,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1286,
+      1287
+    ]
+  },
+  {
+    "teal": 1284,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1288,
+      1289
+    ]
+  },
+  {
+    "teal": 1288,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1290,
+      1291
+    ]
+  },
+  {
+    "teal": 1289,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1292,
+      1293
+    ]
+  },
+  {
+    "teal": 1290,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1294
+    ]
+  },
+  {
+    "teal": 1291,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1295
+    ]
+  },
+  {
+    "teal": 1292,
+    "source": "contracts\\AlgoPredict.algo.ts:141",
+    "pc": [
+      1296
+    ]
+  },
+  {
+    "teal": 1293,
+    "source": "contracts\\AlgoPredict.algo.ts:141",
+    "pc": [
+      1297
+    ]
+  },
+  {
+    "teal": 1294,
+    "source": "contracts\\AlgoPredict.algo.ts:141",
+    "pc": [
+      1298
+    ]
+  },
+  {
+    "teal": 1297,
+    "source": "contracts\\AlgoPredict.algo.ts:141",
+    "errorMessage": "User has already claimed reward",
+    "pc": [
+      1299
+    ]
+  },
+  {
+    "teal": 1301,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1300,
+      1301
+    ]
+  },
+  {
+    "teal": 1302,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1302
+    ]
+  },
+  {
+    "teal": 1305,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1303
+    ]
+  },
+  {
+    "teal": 1306,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1304,
+      1305
+    ]
+  },
+  {
+    "teal": 1307,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1306,
+      1307
+    ]
+  },
+  {
+    "teal": 1308,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1308,
+      1309,
+      1310
+    ]
+  },
+  {
+    "teal": 1309,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1311
+    ]
+  },
+  {
+    "teal": 1310,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1312,
+      1313
+    ]
+  },
+  {
+    "teal": 1311,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1314
+    ]
+  },
+  {
+    "teal": 1314,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1315
+    ]
+  },
+  {
+    "teal": 1315,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1316,
+      1317
+    ]
+  },
+  {
+    "teal": 1316,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1318,
+      1319
+    ]
+  },
+  {
+    "teal": 1317,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1320,
+      1321,
+      1322
+    ]
+  },
+  {
+    "teal": 1318,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1323
+    ]
+  },
+  {
+    "teal": 1319,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1324
+    ]
+  },
+  {
+    "teal": 1320,
+    "source": "contracts\\AlgoPredict.algo.ts:142",
+    "pc": [
+      1325,
+      1326
+    ]
+  },
+  {
+    "teal": 1324,
+    "source": "contracts\\AlgoPredict.algo.ts:143",
+    "pc": [
+      1327
+    ]
+  },
+  {
+    "teal": 1325,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1328,
+      1329
+    ]
+  },
+  {
+    "teal": 1326,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1330
+    ]
+  },
+  {
+    "teal": 1327,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1331
+    ]
+  },
+  {
+    "teal": 1328,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1332
+    ]
+  },
+  {
+    "teal": 1329,
+    "source": "contracts\\AlgoPredict.algo.ts:143",
+    "pc": [
+      1333
+    ]
+  },
+  {
+    "teal": 1330,
+    "source": "contracts\\AlgoPredict.algo.ts:143",
+    "pc": [
+      1334
+    ]
+  },
+  {
+    "teal": 1331,
+    "source": "contracts\\AlgoPredict.algo.ts:143",
+    "pc": [
+      1335,
+      1336
+    ]
+  },
+  {
+    "teal": 1336,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1337,
+      1338
+    ]
+  },
+  {
+    "teal": 1337,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1339
+    ]
+  },
+  {
+    "teal": 1340,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1340
+    ]
+  },
+  {
+    "teal": 1341,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1341,
+      1342
+    ]
+  },
+  {
+    "teal": 1342,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1343,
+      1344
+    ]
+  },
+  {
+    "teal": 1343,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1345,
+      1346,
+      1347
+    ]
+  },
+  {
+    "teal": 1344,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1348
+    ]
+  },
+  {
+    "teal": 1345,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1349
+    ]
+  },
+  {
+    "teal": 1346,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1350
+    ]
+  },
+  {
+    "teal": 1347,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1351,
+      1352,
+      1353
+    ]
+  },
+  {
+    "teal": 1352,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1354,
+      1355
+    ]
+  },
+  {
+    "teal": 1353,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1356,
+      1357
+    ]
+  },
+  {
+    "teal": 1354,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1358
+    ]
+  },
+  {
+    "teal": 1355,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1359
+    ]
+  },
+  {
+    "teal": 1356,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1360
+    ]
+  },
+  {
+    "teal": 1357,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1361
+    ]
+  },
+  {
+    "teal": 1358,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1362
+    ]
+  },
+  {
+    "teal": 1359,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1363,
+      1364
+    ]
+  },
+  {
+    "teal": 1360,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1365
+    ]
+  },
+  {
+    "teal": 1363,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1366
+    ]
+  },
+  {
+    "teal": 1364,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1367,
+      1368
+    ]
+  },
+  {
+    "teal": 1365,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1369,
+      1370
+    ]
+  },
+  {
+    "teal": 1366,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1371,
+      1372,
+      1373
+    ]
+  },
+  {
+    "teal": 1367,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1374
+    ]
+  },
+  {
+    "teal": 1368,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1375
+    ]
+  },
+  {
+    "teal": 1369,
+    "source": "contracts\\AlgoPredict.algo.ts:145",
+    "pc": [
+      1376,
+      1377
+    ]
+  },
+  {
+    "teal": 1370,
+    "source": "contracts\\AlgoPredict.algo.ts:144",
+    "pc": [
+      1378,
+      1379,
+      1380
+    ]
+  },
+  {
+    "teal": 1375,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1381,
+      1382
+    ]
+  },
+  {
+    "teal": 1376,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1383
+    ]
+  },
+  {
+    "teal": 1379,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1384
+    ]
+  },
+  {
+    "teal": 1380,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1385,
+      1386
+    ]
+  },
+  {
+    "teal": 1381,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1387,
+      1388
+    ]
+  },
+  {
+    "teal": 1382,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1389,
+      1390,
+      1391
+    ]
+  },
+  {
+    "teal": 1383,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1392
+    ]
+  },
+  {
+    "teal": 1384,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1393
+    ]
+  },
+  {
+    "teal": 1385,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1394
+    ]
+  },
+  {
+    "teal": 1386,
+    "source": "contracts\\AlgoPredict.algo.ts:146",
+    "pc": [
+      1395,
+      1396,
+      1397
+    ]
+  },
+  {
+    "teal": 1391,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1398,
+      1399
+    ]
+  },
+  {
+    "teal": 1392,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1400,
+      1401
+    ]
+  },
+  {
+    "teal": 1393,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1402
+    ]
+  },
+  {
+    "teal": 1394,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1403
+    ]
+  },
+  {
+    "teal": 1395,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1404
+    ]
+  },
+  {
+    "teal": 1396,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1405
+    ]
+  },
+  {
+    "teal": 1397,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1406
+    ]
+  },
+  {
+    "teal": 1398,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1407,
+      1408
+    ]
+  },
+  {
+    "teal": 1399,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1409
+    ]
+  },
+  {
+    "teal": 1402,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1410
+    ]
+  },
+  {
+    "teal": 1403,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1411,
+      1412
+    ]
+  },
+  {
+    "teal": 1404,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1413,
+      1414
+    ]
+  },
+  {
+    "teal": 1405,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1415,
+      1416,
+      1417
+    ]
+  },
+  {
+    "teal": 1406,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1418
+    ]
+  },
+  {
+    "teal": 1407,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1419
+    ]
+  },
+  {
+    "teal": 1408,
+    "source": "contracts\\AlgoPredict.algo.ts:147",
+    "pc": [
+      1420,
+      1421
+    ]
+  },
+  {
+    "teal": 1414,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1422,
+      1423
+    ]
+  },
+  {
+    "teal": 1415,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1424
+    ]
+  },
+  {
+    "teal": 1418,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1425
+    ]
+  },
+  {
+    "teal": 1419,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1426,
+      1427
+    ]
+  },
+  {
+    "teal": 1420,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1428,
+      1429
+    ]
+  },
+  {
+    "teal": 1421,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1430,
+      1431,
+      1432
+    ]
+  },
+  {
+    "teal": 1422,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1433
+    ]
+  },
+  {
+    "teal": 1423,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1434,
+      1435
+    ]
+  },
+  {
+    "teal": 1424,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1436
+    ]
+  },
+  {
+    "teal": 1425,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1437
+    ]
+  },
+  {
+    "teal": 1426,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1438,
+      1439,
+      1440
+    ]
+  },
+  {
+    "teal": 1427,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1441,
+      1442
+    ]
+  },
+  {
+    "teal": 1428,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "pc": [
+      1443
+    ]
+  },
+  {
+    "teal": 1431,
+    "source": "contracts\\AlgoPredict.algo.ts:135",
+    "errorMessage": "box value does not exist: this.predictions(predictionId).value",
+    "pc": [
+      1444
+    ]
+  },
+  {
+    "teal": 1432,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1445,
+      1446
+    ]
+  },
+  {
+    "teal": 1433,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1447,
+      1448
+    ]
+  },
+  {
+    "teal": 1434,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1449,
+      1450,
+      1451
+    ]
+  },
+  {
+    "teal": 1435,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1452
+    ]
+  },
+  {
+    "teal": 1436,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1453,
+      1454
+    ]
+  },
+  {
+    "teal": 1437,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1455
+    ]
+  },
+  {
+    "teal": 1438,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1456
+    ]
+  },
+  {
+    "teal": 1439,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1457
+    ]
+  },
+  {
+    "teal": 1440,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1458
+    ]
+  },
+  {
+    "teal": 1441,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1459
+    ]
+  },
+  {
+    "teal": 1442,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1460
+    ]
+  },
+  {
+    "teal": 1445,
+    "source": "contracts\\AlgoPredict.algo.ts:149",
+    "pc": [
+      1461,
+      1462,
+      1463
+    ]
+  },
+  {
+    "teal": 1450,
+    "source": "contracts\\AlgoPredict.algo.ts:150",
+    "pc": [
+      1464
+    ]
+  },
+  {
+    "teal": 1451,
+    "source": "contracts\\AlgoPredict.algo.ts:150",
+    "pc": [
+      1465,
+      1466
+    ]
+  },
+  {
+    "teal": 1456,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1467
+    ]
+  },
+  {
+    "teal": 1457,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1468
+    ]
+  },
+  {
+    "teal": 1458,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1469,
+      1470
+    ]
+  },
+  {
+    "teal": 1462,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1471,
+      1472
+    ]
+  },
+  {
+    "teal": 1463,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1473,
+      1474
+    ]
+  },
+  {
+    "teal": 1467,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1475,
+      1476
+    ]
+  },
+  {
+    "teal": 1468,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1477,
+      1478
+    ]
+  },
+  {
+    "teal": 1471,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1479
+    ]
+  },
+  {
+    "teal": 1472,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1480,
+      1481
+    ]
+  },
+  {
+    "teal": 1475,
+    "source": "contracts\\AlgoPredict.algo.ts:152",
+    "pc": [
+      1482
+    ]
+  },
+  {
+    "teal": 1483,
+    "source": "contracts\\AlgoPredict.algo.ts:153",
+    "pc": [
+      1483,
+      1484
+    ]
+  },
+  {
+    "teal": 1484,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1485,
+      1486
+    ]
+  },
+  {
+    "teal": 1485,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1487
+    ]
+  },
+  {
+    "teal": 1486,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1488
+    ]
+  },
+  {
+    "teal": 1487,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1489
+    ]
+  },
+  {
+    "teal": 1488,
+    "source": "contracts\\AlgoPredict.algo.ts:154",
+    "pc": [
+      1490
+    ]
+  },
+  {
+    "teal": 1489,
+    "source": "contracts\\AlgoPredict.algo.ts:154",
+    "pc": [
+      1491
+    ]
+  },
+  {
+    "teal": 1490,
+    "source": "contracts\\AlgoPredict.algo.ts:154",
+    "pc": [
+      1492,
+      1493,
+      1494
+    ]
+  },
+  {
+    "teal": 1491,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1495,
+      1496
+    ]
+  },
+  {
+    "teal": 1492,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1497
+    ]
+  },
+  {
+    "teal": 1493,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1498
+    ]
+  },
+  {
+    "teal": 1494,
+    "source": "contracts\\AlgoPredict.algo.ts:140",
+    "pc": [
+      1499
+    ]
+  },
+  {
+    "teal": 1495,
+    "source": "contracts\\AlgoPredict.algo.ts:155",
+    "pc": [
+      1500
+    ]
+  },
+  {
+    "teal": 1496,
+    "source": "contracts\\AlgoPredict.algo.ts:155",
+    "pc": [
+      1501
+    ]
+  },
+  {
+    "teal": 1497,
+    "source": "contracts\\AlgoPredict.algo.ts:155",
+    "pc": [
+      1502
+    ]
+  },
+  {
+    "teal": 1498,
+    "source": "contracts\\AlgoPredict.algo.ts:156",
+    "pc": [
+      1503,
+      1504,
+      1505
+    ]
+  },
+  {
+    "teal": 1499,
+    "source": "contracts\\AlgoPredict.algo.ts:156",
+    "pc": [
+      1506
+    ]
+  },
+  {
+    "teal": 1500,
+    "source": "contracts\\AlgoPredict.algo.ts:153",
+    "pc": [
+      1507
+    ]
+  },
+  {
+    "teal": 1501,
+    "source": "contracts\\AlgoPredict.algo.ts:133",
+    "pc": [
+      1508
+    ]
+  },
+  {
+    "teal": 1504,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1509,
+      1510,
+      1511,
+      1512,
+      1513,
+      1514
+    ]
+  },
+  {
+    "teal": 1505,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1515,
+      1516,
+      1517
+    ]
+  },
+  {
+    "teal": 1506,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1518,
+      1519,
+      1520,
+      1521
+    ]
+  },
+  {
+    "teal": 1509,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "errorMessage": "this contract does not implement the given ABI method for create NoOp",
+    "pc": [
+      1522
+    ]
+  },
+  {
+    "teal": 1512,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1523,
+      1524,
+      1525,
+      1526,
+      1527,
+      1528
+    ]
+  },
+  {
+    "teal": 1513,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1529,
+      1530,
+      1531,
+      1532,
+      1533,
+      1534
+    ]
+  },
+  {
+    "teal": 1514,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1535,
+      1536,
+      1537,
+      1538,
+      1539,
+      1540
+    ]
+  },
+  {
+    "teal": 1515,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1541,
+      1542,
+      1543,
+      1544,
+      1545,
+      1546
+    ]
+  },
+  {
+    "teal": 1516,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1547,
+      1548,
+      1549
+    ]
+  },
+  {
+    "teal": 1517,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1550,
+      1551,
+      1552,
+      1553,
+      1554,
+      1555,
+      1556,
+      1557,
+      1558,
+      1559
+    ]
+  },
+  {
+    "teal": 1520,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "errorMessage": "this contract does not implement the given ABI method for call NoOp",
+    "pc": [
+      1560
+    ]
+  },
+  {
+    "teal": 1523,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1561,
+      1562,
+      1563
+    ]
+  },
+  {
+    "teal": 1524,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1564,
+      1565
+    ]
+  },
+  {
+    "teal": 1525,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1566,
+      1567
+    ]
+  },
+  {
+    "teal": 1526,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1568
+    ]
+  },
+  {
+    "teal": 1527,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1569,
+      1570
+    ]
+  },
+  {
+    "teal": 1528,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1571,
+      1572
+    ]
+  },
+  {
+    "teal": 1529,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1573
+    ]
+  },
+  {
+    "teal": 1532,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1574,
+      1575,
+      1576
+    ]
+  },
+  {
+    "teal": 1533,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1577,
+      1578
+    ]
+  },
+  {
+    "teal": 1534,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1579,
+      1580
+    ]
+  },
+  {
+    "teal": 1535,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1581
+    ]
+  },
+  {
+    "teal": 1536,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1582,
+      1583
+    ]
+  },
+  {
+    "teal": 1537,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1584,
+      1585
+    ]
+  },
+  {
+    "teal": 1538,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1586
+    ]
+  },
+  {
+    "teal": 1539,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1587
+    ]
+  },
+  {
+    "teal": 1540,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1588,
+      1589
+    ]
+  },
+  {
+    "teal": 1541,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1590
+    ]
+  },
+  {
+    "teal": 1542,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1591
+    ]
+  },
+  {
+    "teal": 1543,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1592
+    ]
+  },
+  {
+    "teal": 1544,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1593,
+      1594,
+      1595
+    ]
+  },
+  {
+    "teal": 1545,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1596,
+      1597
+    ]
+  },
+  {
+    "teal": 1546,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1598,
+      1599
+    ]
+  },
+  {
+    "teal": 1547,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1600
+    ]
+  },
+  {
+    "teal": 1548,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1601
+    ]
+  },
+  {
+    "teal": 1549,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1602,
+      1603
+    ]
+  },
+  {
+    "teal": 1550,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1604,
+      1605
+    ]
+  },
+  {
+    "teal": 1551,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1606,
+      1607
+    ]
+  },
+  {
+    "teal": 1552,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1608,
+      1609
+    ]
+  },
+  {
+    "teal": 1553,
+    "source": "contracts\\AlgoPredict.algo.ts:25",
+    "pc": [
+      1610
+    ]
+  }
+]
