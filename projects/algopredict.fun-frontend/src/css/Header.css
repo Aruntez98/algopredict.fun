@@ -1,0 +1,63 @@
+p{
+    margin: 0!important;
+}
+
+.header_wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: #121235;
+    padding: 20px 30px;
+    border-radius: 15px;
+    width: 90%;
+    position: fixed;
+    top: 5px;
+    left: 2.5%;
+    z-index: 999;
+}
+
+.cmpny_name{
+    font-family: Jaro;
+    font-size: 34px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+}
+
+.menu_item_profile{
+    font-family: Manrope;
+    font-size: 16;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF70;
+}
+
+.menu_item_events{
+    font-family: Manrope;
+    font-size: 16;
+    font-weight: 700;
+    text-align: left;
+    color: #FFFFFF70;
+}
+
+.first_wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.connect_wallet_btn{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    /* letter-spacing: -0.2px; */
+    text-align: center;
+    color: #fff;
+    background-color: #191B24;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid transparent;
+}

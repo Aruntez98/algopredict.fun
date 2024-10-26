@@ -13,7 +13,7 @@
     "emitDecoratorMetadata": true /* Enables experimental support for emitting type metadata for decorators. */,
     "skipLibCheck": true /* Skip type checking of declaration files. */,
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
-    "allowJs": false,
+    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
@@ -28,7 +28,8 @@
     "vite.config.js",
     "src/utils/",
     "src/utils/",
-    "src/main.tsx",
+    "src/main.jsx", 
+    "src/App.jsx",
   ],
   "references": [
     {
