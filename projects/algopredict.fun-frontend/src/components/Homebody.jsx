@@ -6,10 +6,62 @@ import Card from '../components/Card'
 import img1 from '../assets/Homepage/competition-1.png'
 import img2 from '../assets/Homepage/competition-2.png'
 import img3 from '../assets/Homepage/competition-3.png'
+import { Caller } from '../config'
+import { getPrediction, getNextPredictionIndex, getUserPrediction } from '../utils'
+import { useEffect, useState } from 'react'
 
+const Homebody = ({ activeAccount }) => {
+  const [selectedCategory, setSelectedCategory] = useState('all')
+  const [predictions, setPredictions] = useState([])
+  const [filteredPredictions, setFilteredPredictions] = useState([])
+  const [loading, setLoading] = useState(true)
 
+  useEffect(() => {
+    const fetchPredictions = async () => {
+      const nextPredictionIndex = await getNextPredictionIndex(Caller);
 
-const Homebody = () => {
+      const predictions = await Promise.all(
+        Array.from({ length: nextPredictionIndex }).map(async (_, i) => {
+          const p = await getPrediction(Caller, nextPredictionIndex - 1 - i)
+          if (!p) return null
+          return { prediction: p, index: nextPredictionIndex - 1 - i }
+        }
+        )
+      );
+
+      const predictionsWithUser = await Promise.all(
+        predictions.map(async (prediction) => {
+          console.log(activeAccount)
+          if (!activeAccount) {
+            return prediction;
+          }
+          const user = await getUserPrediction(Caller, activeAccount.address, prediction.index);
+          if (user) {
+            return {
+              ...prediction,
+              user,
+            };
+          } else {
+            return prediction
+          }
+        }
+        ));
+
+      setPredictions(predictionsWithUser)
+      setLoading(false)
+    }
+
+    fetchPredictions()
+  }, []);
+
+  useEffect(() => {
+    if (selectedCategory === 'all') {
+      setFilteredPredictions(predictions)
+    } else {
+      setFilteredPredictions(predictions.filter(p => p.prediction.category === selectedCategory))
+    }
+  }, [selectedCategory, predictions])
+
   return (
     <>
       <section className="hero_section" id="hero_section">
@@ -29,11 +81,11 @@ const Homebody = () => {
           <div className="top_part">
             <div className="top_first_div">
               <div className="categories_div">
-                <button className='category_btn'>All</button>
-                <button className='category_btn'>Politics</button>
-                <button className='category_btn'>Movies</button>
-                <button className='category_btn'>Airdrops</button>
-                <button className='category_btn'>My Bets</button>
+                <button onClick={(_) => { setSelectedCategory("all") }} className={`category_btn ${selectedCategory == "all" && "active"}`}>All</button>
+                <button onClick={(_) => { setSelectedCategory("politics") }} className={`category_btn ${selectedCategory == "politics" && "active"}`}>Politics</button>
+                <button onClick={(_) => { setSelectedCategory("movies") }} className={`category_btn ${selectedCategory == "movies" && "active"}`}>Movies</button>
+                <button onClick={(_) => { setSelectedCategory("airdrops") }} className={`category_btn ${selectedCategory == "airdrops" && "active"}`}>Airdrops</button>
+                <button onClick={(_) => { setSelectedCategory("my_bets") }} className={`category_btn ${selectedCategory == "my_bets" && "active"}`}>My Bets</button>
               </div>
               {/* <div className="allcategories">
                 <button className='all_cat_btn'>All Categories <img src={DwnArrow} alt="" /></button>
@@ -50,59 +102,15 @@ const Homebody = () => {
             </div> */}
           </div>
           <div className="middle_part">
-            <Card
-              image={img1}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
+            {loading ? <p>Loading...</p> : filteredPredictions.length > 0 ? filteredPredictions.map(({ prediction, user, index }) => (
+              <Card
+                key={index}
+                index={index}
+                prediction={prediction}
+                user={user}
+              />
+            )) : <p>No predictions found</p>}
 
-            <Card
-              image={img2}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
-
-            <Card
-              image={img3}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
-
-            <Card
-              image={img3}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
-
-            <Card
-              image={img3}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
-
-            <Card
-              image={img3}
-              headline='Who will win next US election 2024?'
-              people='1,00,683'
-              amount='N/A'
-              trophy='$5.06M'
-              startsin='1W 1D 16H'
-            />
           </div>
           {/* <div className="bottom_part">
             <button className='prev_btn'>Previous</button>

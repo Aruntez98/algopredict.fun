@@ -1,14 +1,17 @@
 import { Contract } from '@algorandfoundation/tealscript';
 
 type Prediction = {
-  question: string;
   option1SharesBhougth: uint64;
   option2SharesBhougth: uint64;
   startsAt: uint64;
   endsAt: uint64;
   result: uint8;
+  noOfUsers: uint64;
+  question: string;
   option1: string;
   option2: string;
+  category: string;
+  image: string;
 };
 
 type UserPredictionKey = {
@@ -33,7 +36,15 @@ export class AlgoPredict extends Contract {
     this.predictionIndex.value = 0;
   }
 
-  addPrediction(question: string, option1Name: string, option2Name: string, startsAt: uint64, endsAt: uint64): uint64 {
+  addPrediction(
+    question: string,
+    option1Name: string,
+    option2Name: string,
+    startsAt: uint64,
+    endsAt: uint64,
+    category: string,
+    image: string
+  ): uint64 {
     assert(startsAt < endsAt, 'startsAt should be less than endsAt');
     assert(this.txn.sender === this.app.creator, 'Only creator can add prediction');
     const newPrediction: Prediction = {
@@ -45,6 +56,9 @@ export class AlgoPredict extends Contract {
       startsAt: startsAt,
       endsAt: endsAt,
       result: 0,
+      category: category,
+      image: image,
+      noOfUsers: 0,
     };
     this.predictions(this.predictionIndex.value).value = newPrediction;
     this.predictionIndex.value = this.predictionIndex.value + 1;
@@ -112,6 +126,7 @@ export class AlgoPredict extends Contract {
       } else {
         prediction.option2SharesBhougth = prediction.option2SharesBhougth + amount;
       }
+      prediction.noOfUsers = prediction.noOfUsers + 1;
       verifyPayTxn(payTxn, { receiver: this.app.address, amount: { greaterThanEqualTo: amount } });
       this.userPredictions(predictionKey).value = {
         option: option,
@@ -149,7 +164,7 @@ export class AlgoPredict extends Contract {
     if (prediction.result !== 3 && prediction.result !== userPrediction.option) {
       reward = 0;
     }
-    sendPayment({ amount: reward, receiver: this.txn.sender });
+    sendPayment({ amount: reward, receiver: this.txn.sender, note: 'reward-' + predictionId });
     this.userPredictions(predictionKey).value = {
       option: userPrediction.option,
       amount: userPrediction.amount,

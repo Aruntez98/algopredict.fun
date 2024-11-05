@@ -116,6 +116,8 @@ const getUserPrediction = async (Caller: AlgoPredictClient, user: string, index:
       option2Name: 'Kalama Harris',
       startsAt: timestamp,
       endsAt: timestamp + 30,
+      category: 'Politics',
+      image: '',
     },
     { sender: admin, boxes: [{ appIndex: 0, name: algosdk.bigIntToBytes(nextPredictionIndex, 8) }] }
   );

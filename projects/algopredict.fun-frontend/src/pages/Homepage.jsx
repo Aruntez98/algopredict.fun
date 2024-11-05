@@ -1,10 +1,10 @@
 import Homebody from '../components/Homebody'
 
 
-const Homepage = () => {
+const Homepage = ({ activeAccount }) => {
   return (
     <>
-      <Homebody />
+      <Homebody activeAccount={activeAccount} />
     </>
   )
 }

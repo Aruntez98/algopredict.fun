@@ -31,6 +31,14 @@
         {
           "name": "endsAt",
           "type": "uint64"
+        },
+        {
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "name": "image",
+          "type": "string"
         }
       ],
       "returns": {

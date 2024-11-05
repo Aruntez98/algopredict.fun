@@ -28,8 +28,8 @@
     "vite.config.js",
     "src/utils/",
     "src/utils/",
-    "src/main.jsx", 
-    "src/App.jsx",
+    "src/main.jsx",
+    "src/App.jsx", "src/utils.js", "src/config.js",
   ],
   "references": [
     {
