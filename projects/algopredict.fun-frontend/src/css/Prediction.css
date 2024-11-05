@@ -232,6 +232,28 @@
   color: #bbb;
 }
 
+.activity-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.activity-table th {
+  background-color: #282a3a;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.activity-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  color: #fff;
+}
+
 .amount {
   color: #fff;
 }

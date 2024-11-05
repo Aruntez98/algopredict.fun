@@ -100,13 +100,16 @@ export const CreatePrediction = ({ activeAccount, transactionSigner }) => {
           navigate("/");
 
         } else {
+          setSubmitting("");
           toast.error("You are not authorized to create a prediction");
         }
       } else {
+        setSubmitting("");
         toast.error("Please connect your wallet to create a prediction");
       }
     } catch (error) {
       console.error(error);
+      setSubmitting("");
       toast.error("An error occurred while creating prediction");
     }
     // Add your form submission logic here

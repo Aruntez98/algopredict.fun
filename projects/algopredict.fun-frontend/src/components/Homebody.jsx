@@ -57,6 +57,8 @@ const Homebody = ({ activeAccount }) => {
   useEffect(() => {
     if (selectedCategory === 'all') {
       setFilteredPredictions(predictions)
+    } else if (selectedCategory === 'my_bets') {
+      setFilteredPredictions(predictions.filter(p => p.user))
     } else {
       setFilteredPredictions(predictions.filter(p => p.prediction.category === selectedCategory))
     }

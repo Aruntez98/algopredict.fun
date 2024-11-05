@@ -5,10 +5,10 @@ import im3 from "../assets/profile3.png";
 import im4 from "../assets/profile4.png";
 import { toast } from 'react-toastify';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, act } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { getPrediction, getUserPrediction, formatAmount, combineAddressAndUint64 } from '../utils';
-import { APP_ADDRESS, APP_ADMIN, Caller, algorandClient } from '../config';
+import { getPrediction, getUserPrediction, formatAmount, combineAddressAndUint64, base64ToUint8Array } from '../utils';
+import { APP_ADDRESS, APP_ADMIN, APP_ID, Caller, algorandClient } from '../config';
 import algosdk from 'algosdk';
 import * as algokit from "@algorandfoundation/algokit-utils";
 
@@ -24,6 +24,8 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
   const [predictionStatus, setPredictionStatus] = useState("");
   const [estimatedPayout, setEstimatedPayout] = useState(0);
 
+  const [activities, setActivities] = useState([]);
+
   useEffect(() => {
     if (!activeAccount) {
       toast.error("Please connect your wallet to bet");
@@ -33,11 +35,9 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
     const fetchPrediction = async () => {
       // fetch prediction details
       // get id
-      console.log(id)
 
       const p = await getPrediction(Caller, id);
 
-      console.log(p)
       if (!p) {
         toast.error("Prediction not found");
         navigate('/');
@@ -55,8 +55,69 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
         setPrediction({ prediction: p, user: null });
       }
 
-    }
+      const encoder = new TextEncoder();
+      const decoder = new TextDecoder();
+      const note = encoder.encode(`addbet-${id}`);
 
+      const activity = [];
+      let addbets = await algorandClient.client.indexer.searchForTransactions().notePrefix(note).applicationID(APP_ID).do();
+      for (let i = 0; i < addbets.transactions.length; i++) {
+        const txn = addbets.transactions[i];
+
+        const txnNote = base64ToUint8Array(txn.note);
+        const txnNoteStr = decoder.decode(txnNote);
+        const txnNoteArr = txnNoteStr.split("-");
+        if (txnNoteArr.length == 4) {
+          activity.push({ address: txn.sender, option: txnNoteArr[2], amount: txnNoteArr[3], type: "addbet", time: txn["round-time"], txnId: txn.id });
+        }
+      }
+
+      console.log(addbets, "addbets")
+
+      while (addbets["next-token"]) {
+        addbets = await algorandClient.client.indexer.searchForTransactions().notePrefix(note).applicationID(APP_ID).nextToken(addbets["next-token"]).do();
+        for (let i = 0; i < addbets.transactions.length; i++) {
+          const txn = addbets.transactions[i];
+          const txnNote = txn.note;
+          const txnNoteStr = new TextDecoder().decode(txnNote);
+          console.log(firstNote, txnNoteStr, "txnNoteStr")
+          const txnNoteArr = txnNoteStr.split("-");
+          if (txnNoteArr.length == 4) {
+            activity.push({ address: txn.sender, option: txnNoteArr[2], amount: txnNoteArr[3], type: "addbet", time: txn["round-time"], txnId: txn.id });
+          }
+        }
+      }
+
+
+      const claimnote = encoder.encode(`reward-${id}`);
+      let claimbets = await algorandClient.client.indexer.searchForTransactions().notePrefix(claimnote).address(APP_ADDRESS).addressRole("sender").do();
+      console.log(claimbets)
+      for (let i = 0; i < claimbets.transactions.length; i++) {
+        const txn = claimbets.transactions[i];
+        if (txn["inner-txns"][0]["payment-transaction"]) {
+          const paymentTxn = txn["inner-txns"][0]["payment-transaction"];
+          activity.push({ address: txn.sender, type: "claim", time: txn["round-time"], txnId: txn.id, amount: algosdk.microalgosToAlgos(paymentTxn.amount) });
+        }
+      }
+      while (claimbets["next-token"]) {
+        claimbets = await algorandClient.client.indexer.searchForTransactions().notePrefix(claimnote).address(APP_ADDRESS).addressRole("sender").nextToken(claimbets["next-token"]).do();
+        for (let i = 0; i < claimbets.transactions.length; i++) {
+          const txn = claimbets.transactions[i];
+          if (txn["inner-txns"][0]["payment-transaction"]) {
+            const paymentTxn = txn["inner-txns"][0]["payment-transaction"];
+            activity.push({ address: txn.sender, type: "claim", time: txn["round-time"], txnId: txn.id, amount: algosdk.microalgosToAlgos(paymentTxn.amount) });
+          }
+        }
+      }
+
+      activity.sort((a, b) => { return b.time - a.time });
+
+      console.log(activity, "activity")
+
+      setActivities(activity);
+
+
+    }
     fetchPrediction();
   }, [activeAccount]);
 
@@ -108,9 +169,9 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
         const option2 = Number(prediction.prediction.option2SharesBhougth);
         const total = option1 + option2;
         if (prediction.user.option == 1) {
-          setEstimatedPayout(algosdk.microalgosToAlgos(Number((previousAmount * total) / option1)));
+          setEstimatedPayout(algosdk.microalgosToAlgos(Math.round(Number((previousAmount * total) / option1))));
         } else if (prediction.user.option == 2) {
-          setEstimatedPayout(algosdk.microalgosToAlgos(Number((previousAmount * total) / option2)));
+          setEstimatedPayout(algosdk.microalgosToAlgos(Math.round(Number((previousAmount * total) / option2))));
         } else {
           setEstimatedPayout(0);
         }
@@ -122,9 +183,9 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
             const option2 = Number(prediction.prediction.option2SharesBhougth);
             const total = option1 + option2;
             if (Number(prediction.user.option) == 1 && Number(prediction.prediction.result) == 1) {
-              setClaimAmount(algosdk.microalgosToAlgos(Number((previousAmount * total) / option1)));
+              setClaimAmount(algosdk.microalgosToAlgos(Math.round(Number((previousAmount * total) / option1))));
             } else if (Number(prediction.user.option) == 2 && Number(prediction.prediction.result) == 2) {
-              setClaimAmount(algosdk.microalgosToAlgos(Number((previousAmount * total) / option2)));
+              setClaimAmount(algosdk.microalgosToAlgos(Math.round(Number((previousAmount * total) / option2))));
             } else {
               setClaimAmount(0);
             }
@@ -140,15 +201,12 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
     if (betAmount > 0 && prediction) {
       let option1 = algosdk.microalgosToAlgos(Number(prediction.prediction.option1SharesBhougth));
       let option2 = algosdk.microalgosToAlgos(Number(prediction.prediction.option2SharesBhougth));
-      console.log(option1, option2, betAmount)
       const total = option1 + option2 + Number(betAmount);
       if (selectedOption == 1) {
         option1 += Number(betAmount);
-        console.log("first", betAmount * (total / option1))
         setEstimatedPayout(Number(betAmount) * (total / option1));
       } else if (selectedOption == 2) {
         option2 += Number(betAmount);
-        console.log(option1, option2, betAmount, "lllllll")
         setEstimatedPayout(Number(betAmount) * (total / option2));
       } else {
         setEstimatedPayout(0);
@@ -185,7 +243,7 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
               { appIndex: 0, name: algosdk.bigIntToBytes(Number(id), 8) },
               { appIndex: 0, name: combineAddressAndUint64(activeAccount.address, Number(id)) },
             ],
-            note: encoder.encode(`addbet-${selectedOption}-${betAmount}`),
+            note: encoder.encode(`addbet-${id}-${selectedOption}-${betAmount}`),
           }
         ).atc();
         setSubmitting("Sign Transaction...");
@@ -220,7 +278,7 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
               { appIndex: 0, name: algosdk.bigIntToBytes(Number(id), 8) },
               { appIndex: 0, name: combineAddressAndUint64(activeAccount.address, Number(id)) },
             ],
-            note: encoder.encode(`addbet-${selectedOption}-${betAmount}`),
+            note: encoder.encode(`addbet-${id}-${selectedOption}-${betAmount}`),
           }
         ).atc();
         setSubmitting("Sign Transaction...");
@@ -291,6 +349,7 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
       const res = await adminClaim.execute(algorandClient.client.algod, 3);
       toast.success("Reward claimed successfully", { onClick: () => window.open(`${TXN_URL}${res.txIDs[0]}`) });
       setSubmitting("");
+      window.location.reload();
     } catch (e) {
       console.error(e);
       setSubmitting("");
@@ -298,7 +357,8 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
     }
   }
 
-  console.log(prediction, "prediction")
+  const [activeTab, setActiveTab] = useState("predict");
+
   return (
     <div className="betting-screen">
       <div className='details-wrapper'>
@@ -348,13 +408,13 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
 
 
       <div className="tabs">
-        <button className="active-tab">Predict</button>
-        <button>Activity</button>
+        <button onClick={(_) => setActiveTab("predict")} className={`${activeTab == "predict" && "active-tab"}`}>Predict</button>
+        <button onClick={(_) => setActiveTab("activity")} className={`${activeTab == "activity" && "active-tab"}`}>Activity</button>
       </div>
 
-      <div className="bet-section">
+      {activeTab == "predict" && <div className="bet-section">
         {predictionStatus == "not_started" && <div className="betting-not-started">Bet Not Started Yet</div>}
-        {predictionStatus == "ended" && <div className="betting-ended"><p>Bet Ended</p><br></br>{prediction.user ? Number(prediction.prediction.result) != 0 ? Number(prediction.user.claim) == 1 ? "You have claimed you reward" : <>Claim your Reward<br /><button disabled={submitting == "" ? false : true} className='bet-button' onClick={(_) => { claimReward() }}>Claim {claimAmount} ALGO</button></> : (<>Result isn't announced Yet<br />You have Placed {algosdk.microalgosToAlgos(Number(prediction.user.amount))} Algo Bet</>) : "You haven't placed any bet"}</div>}
+        {predictionStatus == "ended" && <div className="betting-ended"><p>Bet Ended</p><br></br>{prediction.user ? Number(prediction.prediction.result) != 0 ? Number(prediction.user.claimed) == 1 ? "You have claimed you reward" : <>Claim your Reward<br /><button disabled={submitting == "" ? false : true} className='bet-button' onClick={(_) => { claimReward() }}>Claim {claimAmount} ALGO</button></> : (<>Result isn't announced Yet<br />You have Placed {algosdk.microalgosToAlgos(Number(prediction.user.amount))} Algo Bet</>) : "You haven't placed any bet"}</div>}
         {predictionStatus == "started" && <div className="betting-started">
           <h2>Select your bets</h2>
           <p>Just tap on the option to select your bet</p>
@@ -398,7 +458,36 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
           </div>
           <button onClick={(_) => addBet()} disabled={submitting == "" ? false : true} className="wallet-button">{submitting != "" ? submitting : prediction.user ? "Change Bet" : "Add Bet"}</button>
         </div>}
-      </div>
+      </div>}
+
+      {activeTab == "activity" && (
+        <div className="bet-section">
+          <h2>Bet Activity</h2>
+          <table className="activity-table">
+            <thead>
+              <tr>
+                <th>S.No</th>
+                <th>Address</th>
+                <th>Type</th>
+                <th>Amount</th>
+                <th>Option</th>
+              </tr>
+            </thead>
+            <tbody>
+              {activities.length > 0 && activities.map((bet, index) => (
+                <tr key={index}>
+                  <td>{index + 1}</td>
+                  <td>{bet.address.slice(0, 3)}...{bet.address.slice(-3)}</td>
+                  <td>{bet.type == "addbet" ? "Add Bet" : "Claim Reward"}</td>
+                  <td>{Number(bet.amount)} ALGO</td>
+                  <td>{bet.option ? bet.option : "-"}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      )}
+
 
       {activeAccount && activeAccount.address == APP_ADMIN && predictionStatus == "ended" && Number(prediction.prediction.result) == 0 && <div style={{ marginTop: "16px" }} className="bet-section">
         <h2>Admin Annonce Result</h2>

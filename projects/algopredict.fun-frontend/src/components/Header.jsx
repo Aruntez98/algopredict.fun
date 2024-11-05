@@ -27,7 +27,7 @@ export const Header = ({
         <div className="header_wrapper">
           <div className="first_wrap">
             <NavLink to="/" className="cmpny_name">Algopredict.fun</NavLink>
-            <NavLink to="/profile" className="menu_item_profile">Profile</NavLink>
+            {/* <NavLink to="/profile" className="menu_item_profile">Profile</NavLink> */}
             <NavLink to="/" className="menu_item_events">Events</NavLink>
             {isAdmin && <NavLink to="/create-prediction" className="menu_item_events">Create Prediction</NavLink>}
           </div>

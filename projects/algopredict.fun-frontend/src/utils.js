@@ -59,6 +59,19 @@ export const getUserPrediction = async (Caller, user, index) => {
 
 };
 
+export function base64ToUint8Array(base64) {
+  const binaryString = atob(base64); // Decode the Base64 string to binary
+  const length = binaryString.length;
+  const bytes = new Uint8Array(length);
+
+  for (let i = 0; i < length; i++) {
+    bytes[i] = binaryString.charCodeAt(i);
+  }
+
+  return bytes;
+}
+
+
 
 //write a function which will take a amount number and return a string by denomination of amount like 10k, 10m, 10b, 10t.
 export function formatAmount(amount) {
