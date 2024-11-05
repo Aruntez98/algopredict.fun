@@ -121,9 +121,9 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
             const option1 = Number(prediction.prediction.option1SharesBhougth);
             const option2 = Number(prediction.prediction.option2SharesBhougth);
             const total = option1 + option2;
-            if (prediction.user.option == 1) {
+            if (Number(prediction.user.option) == 1 && Number(prediction.prediction.result) == 1) {
               setClaimAmount(algosdk.microalgosToAlgos(Number((previousAmount * total) / option1)));
-            } else if (prediction.user.option == 2) {
+            } else if (Number(prediction.user.option) == 2 && Number(prediction.prediction.result) == 2) {
               setClaimAmount(algosdk.microalgosToAlgos(Number((previousAmount * total) / option2)));
             } else {
               setClaimAmount(0);
@@ -212,7 +212,7 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
           amount: algokit.algos(diff).microAlgos,
           suggestedParams: await algorandClient.client.algod.getTransactionParams().do(),
         });
-        const changeBet = await Caller.compose().changeBet(
+        const changeBet = await Caller.compose().buyShares(
           { predictionId: Number(id), option: selectedOption, amount: algokit.algos(betAmount).microAlgos, payTxn: paytxn0 },
           {
             sender: { addr: activeAccount.address, signer: transactionSigner },
