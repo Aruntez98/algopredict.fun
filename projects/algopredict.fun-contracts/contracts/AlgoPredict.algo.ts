@@ -164,7 +164,7 @@ export class AlgoPredict extends Contract {
     if (prediction.result !== 3 && prediction.result !== userPrediction.option) {
       reward = 0;
     }
-    sendPayment({ amount: reward, receiver: this.txn.sender, note: 'reward-' + predictionId });
+    sendPayment({ amount: reward, receiver: this.txn.sender, note: 'reward-' + predictionId.toString() });
     this.userPredictions(predictionKey).value = {
       option: userPrediction.option,
       amount: userPrediction.amount,

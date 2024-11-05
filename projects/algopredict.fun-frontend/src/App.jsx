@@ -5,6 +5,7 @@ import { useWallet } from '@txnlab/use-wallet-react';
 import { Header } from './components/Header';
 import { CreatePrediction } from './components/CreatePrediction';
 import { ToastContainer, toast } from 'react-toastify';
+import { Prediction } from './components/Prediction'
 import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/" element={<Homepage activeAccount={activeAccount} />} />
             <Route path='create-prediction' element={<CreatePrediction transactionSigner={transactionSigner}
               activeAccount={activeAccount} />} />
+            <Route path="/prediction/:id" element={<Prediction activeAccount={activeAccount} transactionSigner={transactionSigner} />} />
           </Routes>
         </Router>
         <ToastContainer position="top-right"

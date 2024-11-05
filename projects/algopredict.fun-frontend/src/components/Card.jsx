@@ -17,8 +17,8 @@ const Card = (props) => {
   useEffect(() => {
     const interval = setInterval(() => {
       const now = new Date().getTime();
-      const startTime = new Date(Number(props.prediction.startsAt)).getTime();
-      const endTime = new Date(Number(props.prediction.endsAt)).getTime();
+      const startTime = new Date(Number(props.prediction.startsAt) * 1000).getTime();
+      const endTime = new Date(Number(props.prediction.endsAt) * 1000).getTime();
 
       let timeDiff;
       let text;
