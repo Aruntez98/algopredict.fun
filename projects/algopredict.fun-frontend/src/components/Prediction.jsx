@@ -138,17 +138,18 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
 
   useEffect(() => {
     if (betAmount > 0 && prediction) {
-      let option1 = Number(prediction.prediction.option1SharesBhougth);
-      let option2 = Number(prediction.prediction.option2SharesBhougth);
+      let option1 = algosdk.microalgosToAlgos(Number(prediction.prediction.option1SharesBhougth));
+      let option2 = algosdk.microalgosToAlgos(Number(prediction.prediction.option2SharesBhougth));
       console.log(option1, option2, betAmount)
-      const total = option1 + option2 + betAmount;
+      const total = option1 + option2 + Number(betAmount);
       if (selectedOption == 1) {
-        option1 += betAmount;
+        option1 += Number(betAmount);
         console.log("first", betAmount * (total / option1))
-        setEstimatedPayout(betAmount * (total / option1));
+        setEstimatedPayout(Number(betAmount) * (total / option1));
       } else if (selectedOption == 2) {
-        option2 += betAmount;
-        setEstimatedPayout(betAmount * (total / option2));
+        option2 += Number(betAmount);
+        console.log(option1, option2, betAmount, "lllllll")
+        setEstimatedPayout(Number(betAmount) * (total / option2));
       } else {
         setEstimatedPayout(0);
       }
