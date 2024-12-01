@@ -36,11 +36,12 @@ const Card = (props) => {
         setPredictionStatus("View more");
       }
 
+      const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
       const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
 
-      setTimeLeft(timeDiff == 0 ? text : `${text}${hours}h ${minutes}m ${seconds}s`);
+      setTimeLeft(timeDiff == 0 ? text : `${text}${days > 0 ? `${days}d ` : ''}${hours}h ${minutes}m ${seconds}s`);
     }, 1000);
 
     return () => clearInterval(interval);

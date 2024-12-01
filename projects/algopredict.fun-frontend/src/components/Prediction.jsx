@@ -134,23 +134,26 @@ export const Prediction = ({ activeAccount, transactionSigner }) => {
         if (now < startTime) {
           setPredictionStatus("not_started");
           const timeDiff = startTime - now;
+          const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
           const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
           const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
           const timeDiff2 = endTime - now;
+          const days2 = Math.floor(timeDiff2 / (1000 * 60 * 60 * 24));
           const hours2 = Math.floor((timeDiff2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           const minutes2 = Math.floor((timeDiff2 % (1000 * 60 * 60)) / (1000 * 60));
           const seconds2 = Math.floor((timeDiff2 % (1000 * 60)) / 1000);
-          setStartsIn(`${hours}h ${minutes}m ${seconds}s`);
-          setEndsIn(`${hours2}h ${minutes2}m ${seconds2}s`);
+          setStartsIn(`${days > 0 ? `${days}d ` : ''}${hours}h ${minutes}m ${seconds}s`);
+          setEndsIn(`${days2 > 0 ? `${days}d ` : ''}${hours2}h ${minutes2}m ${seconds2}s`);
         } else if (now < endTime) {
           setPredictionStatus("started");
           setStartsIn("Started");
           const timeDiff = endTime - now;
+          const days = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
           const hours = Math.floor((timeDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
           const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
           const seconds = Math.floor((timeDiff % (1000 * 60)) / 1000);
-          setEndsIn(`${hours}h ${minutes}m ${seconds}s`);
+          setEndsIn(`${days > 0 ? `${days}d ` : ''}${hours}h ${minutes}m ${seconds}s`);
         } else {
           setPredictionStatus("ended");
           setStartsIn("Ended");
