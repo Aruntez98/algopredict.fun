@@ -44,12 +44,16 @@ p {
   text-decoration: none;
 }
 
+.menu_item_events.active {
+  color: #fff;
+}
+
 .first_wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 30px;
+  gap: 60px;
 }
 
 .connect_wallet_btn {

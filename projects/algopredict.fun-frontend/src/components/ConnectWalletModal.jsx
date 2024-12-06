@@ -18,6 +18,33 @@ const ConnectWalletModal = ({ wallets, isOpen, onClose }) => {
     }
   };
 
+  const getisConnected = () => {
+    for (const wallet of wallets) {
+      if (wallet.isConnected) {
+        return true;
+      }
+    }
+    return false;
+  };
+
+  const [isConnected, setIsConnected] = React.useState(false);
+
+  React.useEffect(() => {
+    setIsConnected(getisConnected());
+  }, [wallets]);
+
+  const disconnectWallet = async () => {
+    try {
+      for (const wallet of wallets) {
+        if (wallet.isConnected) {
+          await wallet.disconnect();
+        }
+      }
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   return (
     <div className="overlay" onClick={onClose}>
       <div className="modal-container" onClick={(e) => e.stopPropagation()}>
@@ -32,6 +59,8 @@ const ConnectWalletModal = ({ wallets, isOpen, onClose }) => {
             <img src={wallet.metadata.icon} alt={`${wallet.metadata.name} Icon`} className="wallet-icon" />
           </div>
         ))}
+
+        {isConnected && <div style={{ background: "rgb(255 30 30)", color: "#fff" }} className="wallet-option" onClick={disconnectWallet}>Disconnect Wallet</div>}
 
         <div className="modal-footer">
           <span>New to Algorand? </span>

@@ -7,7 +7,7 @@ import { CreatePrediction } from './components/CreatePrediction';
 import { ToastContainer, toast } from 'react-toastify';
 import { Prediction } from './components/Prediction'
 import 'react-toastify/dist/ReactToastify.css';
-
+import { Footer } from './components/Footer'
 const App = () => {
   const { wallets, activeWallet, activeAccount, transactionSigner } = useWallet();
 
@@ -28,6 +28,7 @@ const App = () => {
               activeAccount={activeAccount} />} />
             <Route path="/prediction/:id" element={<Prediction activeAccount={activeAccount} transactionSigner={transactionSigner} />} />
           </Routes>
+          <Footer />
         </Router>
         <ToastContainer position="top-right"
           autoClose={5000}

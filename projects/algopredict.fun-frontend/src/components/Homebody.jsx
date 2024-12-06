@@ -64,6 +64,10 @@ const Homebody = ({ activeAccount }) => {
     }
   }, [selectedCategory, predictions])
 
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' })
+  }
+
   return (
     <>
       <section className="hero_section" id="hero_section">
@@ -73,7 +77,7 @@ const Homebody = ({ activeAccount }) => {
             <img src={Sphere} alt="" className='sphere_img' />
             <p className='multichain_heading'>Betting on Algorand is Live</p>
             <p className='multichain_summary'>Explore, Predict, and win on the hottest new markets on Algorand Network.</p>
-            <button className='get_started_btn'>Get started</button>
+            <button onClick={(e) => { scrollTo("bets_section") }} className='get_started_btn'>Get started</button>
           </div>
         </div>
       </section>

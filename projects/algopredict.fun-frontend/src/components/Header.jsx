@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import ConnectWalletModal from './ConnectWalletModal';
 import { useEffect, useState } from 'react';
 import { APP_ADMIN } from '../config';
+import logo from '../assets/logo.jpg'
 
 export const Header = ({
   wallets,
@@ -26,7 +27,9 @@ export const Header = ({
         <div className="sticky_nav"></div>
         <div className="header_wrapper">
           <div className="first_wrap">
-            <NavLink to="/" className="cmpny_name">Algopredict.fun</NavLink>
+            <NavLink to="/" className="cmpny_name" style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+              <img src={logo} height={40} alt="Logo" className="logo" />
+              Algopredict.fun</NavLink>
             {/* <NavLink to="/profile" className="menu_item_profile">Profile</NavLink> */}
             <NavLink to="/" className="menu_item_events">Events</NavLink>
             {isAdmin && <NavLink to="/create-prediction" className="menu_item_events">Create Prediction</NavLink>}
