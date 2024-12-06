@@ -9,8 +9,6 @@ import { useNavigate } from 'react-router-dom'
 
 const Card = (props) => {
 
-  console.log("props", props)
-
   const [timeLeft, setTimeLeft] = useState("");
   const [predictionStatus, setPredictionStatus] = useState("");
 
