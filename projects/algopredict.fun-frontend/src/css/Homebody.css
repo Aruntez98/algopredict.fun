@@ -270,6 +270,14 @@
   padding-bottom: 16px;
 }
 
+.bet_image_div > img {
+  width: 280px;
+  height: 144px;
+  border-radius: 14px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .card_headline {
   font-family: Roboto;
   font-size: 16px;
